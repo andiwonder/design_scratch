@@ -3,16 +3,154 @@
 <head>
   <meta charset="UTF-8"/>
   <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <table id="MatchData">
-    <thead>
+  <table id="MatchData" class="table table-sm table-responsive-sm table-striped">
+    <thead class="thead-light">
       <tr>
+        <th class="table-potrait"></th>
+        <th class="table-name"> Name </th>
+        <th class="table-hero"></th>
+        <th class="table-kill"> K </th>
+        <th class="table-death"> D </th>
+        <th class="table-assist"> A </th>
+        <th class="table-net"> NET </th>
+        <th class="table-gpm"> GPM </th>
+        <th class="table-xpm"> XPM </th>
+        <th class="table-last-hit"> LH/DN </th>
+        <th class="table-dmg"> DMG </th>
+        <th class="table-heal"> HEAL </th>
+        <th class="table-bld"> BLD </th>
+        <th class="table-wards"> Wards </th>
+        <th class="table-items"> Items </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="bg-blue">
+          <img class="potrait" src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/59/59e08015ccaf34efeff8dc433e4a4b44e3f65358_full.jpg" alt=""/>
+        </td>
+        <td class="bg-blue">
+          .1
+        </td>
+        <td class="bg-blue">
+          <img src="https://www.dotabuff.com/assets/heroes/slark-6cf17ee2752c11d8f83056e4c5b4d565b6085e91adf79cf0aa63b6b77605cf53.jpg" alt="">
+        </td>
+        <td>15</td>
+        <td>5</td>
+        <td>11</td>
+        <td>20.4k</td>
+        <td>553</td>
+        <td>711</td>
+        <td>221/7</td>
+        <td>26.4k</td>
+        <td> - </td>
+        <td>4.4k</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <img class="potrait" src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/49/49eb2874fa1af57589af3e6931dbc082986e5341_full.jpg" alt=""/>
+        </td>
+        <td style="background-color: #80DEEA">
+          Crixalis
+        </td>
+        <td>
+          <img src="https://www.dotabuff.com/assets/heroes/shadow-shaman-d0e2c92718f7cba5f15cf26afff2fc03b0764ae1abcde5ad21fd9e2fb2b2e6b8.jpg" alt="">
+        </td>
+        <td>6</td>
+        <td>7</td>
+        <td>14</td>
+        <td>2.0k</td>
+        <td>477</td>
+        <td>425</td>
+        <td>187/7</td>
+        <td>10.4k</td>
+        <td>3.6k</td>
+        <td>615</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <img class="potrait" src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/e8/e80366b9c4dbb01c0327109a096e7c7165a2072f_full.jpg" alt=""/>
+        </td>
+        <td style="background-color: #CE93D8">
+          dont like shit
+        </td>
+        <td>
+          <img src="https://www.dotabuff.com/assets/heroes/tiny-162131e0df68104c9a66fc7a8eafb4fae3204122e4238dba3cd78507738a511c.jpg" alt="">
+        </td>
+        <td>6</td>
+        <td>7</td>
+        <td>14</td>
+        <td>2.0k</td>
+        <td>477</td>
+        <td>425</td>
+        <td>187/7</td>
+        <td>10.4k</td>
+        <td>3.6k</td>
+        <td>615</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <img class="potrait" src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/bc/bcafc039cdc194f9a432eb7dcf5308c817fa5fd1_full.jpg" alt=""/>
+        </td>
+        <td style="background-color: #FFF59D">
+          Stalin won
+        </td>
+        <td>
+          <img src="https://www.dotabuff.com/assets/heroes/riki-a4acbf9efccf572585947a2a1ab7b3ff1449cca6eda05d58fec21afb4f713896.jpg" alt="">
+        </td>
+        <td>6</td>
+        <td>7</td>
+        <td>14</td>
+        <td>2.0k</td>
+        <td>477</td>
+        <td>425</td>
+        <td>187/7</td>
+        <td>10.4k</td>
+        <td>3.6k</td>
+        <td>615</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <img class="potrait" src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/63/63caec9c138930699d1fe5f49a6e60f8279ac94b_full.jpg" alt="">
+        </td>
+        <td style="background-color: #FFCC80">
+          Regular Sized
+        </td>
+        <td>
+          <img src="https://www.dotabuff.com/assets/heroes/arc-warden-44a7265abcfb88333e0180b39b630a9fa06f5880e869c594305713063da62d96.jpg" alt="">
+        </td>
+        <td>6</td>
+        <td>7</td>
+        <td>14</td>
+        <td>2.0k</td>
+        <td>477</td>
+        <td>425</td>
+        <td>187/7</td>
+        <td>10.4k</td>
+        <td>3.6k</td>
+        <td>615</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <table id="MatchData" class="table table-sm table-responsive-sm table-striped">
+    <thead class="thead-light">
+      <tr>
+        <th></th>
         <th> Name </th>
         <th> Role </th>
-        <th> Player </th>
-        <th> Picture </th>
         <th> K </th>
         <th> D </th>
         <th> A </th>
@@ -32,14 +170,11 @@
         <td>
           <img src="https://www.dotabuff.com/assets/items/orb-of-venom-eb625729f42952d92cff77fad6a6e046ca78e7b7f9fb93f3f3394c3e74e502fc.jpg" alt=""/>
         </td>
-        <td>
-          C
+        <td style="background-color: #F48FB1">
+          Dotabheem
         </td>
         <td>
-          ok cool
-        </td>
-        <td>
-          img
+          Carry
         </td>
         <td>6</td>
         <td>7</td>
@@ -51,7 +186,100 @@
         <td>10.4k</td>
         <td>3.6k</td>
         <td>615</td>
-        
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <img src="https://www.dotabuff.com/assets/items/orb-of-venom-eb625729f42952d92cff77fad6a6e046ca78e7b7f9fb93f3f3394c3e74e502fc.jpg" alt=""/>
+        </td>
+        <td style="background-color: #EEEEEE">
+          Dotabheem
+        </td>
+        <td>
+          Carry
+        </td>
+        <td>6</td>
+        <td>7</td>
+        <td>14</td>
+        <td>2.0k</td>
+        <td>187/7</td>
+        <td>477</td>
+        <td>425</td>
+        <td>10.4k</td>
+        <td>3.6k</td>
+        <td>615</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <img src="https://www.dotabuff.com/assets/items/orb-of-venom-eb625729f42952d92cff77fad6a6e046ca78e7b7f9fb93f3f3394c3e74e502fc.jpg" alt=""/>
+        </td>
+        <td style="background-color: #81D4FA">
+          Dotabheem
+        </td>
+        <td>
+          Carry
+        </td>
+        <td>6</td>
+        <td>7</td>
+        <td>14</td>
+        <td>2.0k</td>
+        <td>187/7</td>
+        <td>477</td>
+        <td>425</td>
+        <td>10.4k</td>
+        <td>3.6k</td>
+        <td>615</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <img src="https://www.dotabuff.com/assets/items/orb-of-venom-eb625729f42952d92cff77fad6a6e046ca78e7b7f9fb93f3f3394c3e74e502fc.jpg" alt=""/>
+        </td>
+        <td style="background-color: #A5D6A7">
+          Dotabheem
+        </td>
+        <td>
+          Carry
+        </td>
+        <td>6</td>
+        <td>7</td>
+        <td>14</td>
+        <td>2.0k</td>
+        <td>187/7</td>
+        <td>477</td>
+        <td>425</td>
+        <td>10.4k</td>
+        <td>3.6k</td>
+        <td>615</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <img src="https://www.dotabuff.com/assets/items/orb-of-venom-eb625729f42952d92cff77fad6a6e046ca78e7b7f9fb93f3f3394c3e74e502fc.jpg" alt=""/>
+        </td>
+        <td style="background-color: #A1887F">
+          Dotabheem
+        </td>
+        <td>
+          Carry
+        </td>
+        <td>6</td>
+        <td>7</td>
+        <td>14</td>
+        <td>2.0k</td>
+        <td>187/7</td>
+        <td>477</td>
+        <td>425</td>
+        <td>10.4k</td>
+        <td>3.6k</td>
+        <td>615</td>
+        <td></td>
+        <td></td>
       </tr>
     </tbody>
   </table>

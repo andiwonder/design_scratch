@@ -1,4 +1,83 @@
+img {
+  max-width: 40px;
+}
+
+.item {
+  max-width: 32px;
+}
+
+.potrait {
+  height: 2rem;
+}
+
+thead {
+  font-size: .75rem;
+}
+
 table {
-  width: 70%;
-  margin: 0 auto;
+  font-size: 1em;
+  font-weight: 300;
+  letter-spacing: .12rem;
+  overflow-wrap: break-word;
+  white-space: nowrap;
+}
+
+.table-hero {
+  width: 2rem;
+  padding-right: 3rem !important;
+}
+
+.table-potrait {
+  width: 2rem;
+}
+
+.table-name {
+  width: 10rem;
+}
+
+.table-kill, .table-death, .table-gpm  {
+  width: 1.5rem;
+  padding-right: .5rem !important;
+}
+
+.table-assist {
+  width: 1.5rem;
+  padding-right: 3rem !important;
+}
+
+.table-net, .table-gpm {
+  width: 3.5rem;
+}
+
+.table-xpm {
+  width: 5rem;
+}
+
+
+.table-last-hit {
+  width: 4rem;
+}
+
+.table-dmg, .table-heal, .table-bld {
+  width: 4rem;
+}
+
+.bg-blue {
+  background-color: #90CAF9;
+}
+
+.bg-teal {
+
+}
+
+.bg-purple {
+
+}
+
+.bg-yellow {
+
+}
+
+.bg-orange {
+
 }

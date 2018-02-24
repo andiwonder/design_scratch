@@ -1,0 +1,236 @@
+body {
+  /*font-family: 'Open Sans', sans-serif;*/
+  /*font-family: 'Poppins', sans-serif;*/
+  font-family: 'Roboto Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+#landing {
+  height: 100vh;
+  background: -webkit-linear-gradient(rgba(40,44,53, 0.7), rgba(40,44,53, 0.7)), 
+              url("./images/landing_bg.jpg") no-repeat center center;
+  background: -o-linear-gradient(rgba(40,44,53, 0.7), rgba(40,44,53, 0.7)), 
+              url("./images/landing_bg.jpg") no-repeat center center;
+  background: linear-gradient(rgba(40,44,53, 0.7), rgba(40,44,53, 0.7)), 
+              url("./images/landing_bg.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  padding-top: 5vh;
+}
+
+.main_tag {
+  margin-top: 20vh;
+}
+
+.landing-text h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3.5rem;
+  letter-spacing: -0.1vh;
+}
+
+.landing-text p {
+  font-weight: 400;
+  letter-spacing: .15vh;
+}
+
+.circle {
+  width: .55em;
+  height: .55em;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: .55em;
+  background: white;
+  margin: .75em auto;
+}
+
+.large-circle {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 3rem;
+  border: 2px solid red;
+  margin: 5% auto;
+}
+
+.large-circle img {
+  max-width: 1em;
+  margin: 35% auto;
+  display: block;
+}
+
+.potrait {
+  height: 48px;
+  border: 2px solid white;
+  margin-right: 15px;
+}
+
+.hamburger_menu {
+  height: 30px;
+  width: 26px;
+}
+
+.landing_logo_img img, .landing_logo_img h6 {
+  display: inline-block;
+}
+
+.map_marker{
+  width: 1.5em;
+}
+
+.map_marker_row {
+  margin-top: 18vh;
+}
+
+.map_marker_row h4 {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.3rem;
+  vertical-align: sub;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+#test-bg {
+  background: linear-gradient(rgba(40,44,53, 0.7), rgba(40,44,53, 0.7)), 
+              url("./images/ny_bg.jpeg") no-repeat center center;
+  /*background: url("./images/pattern.png");*/
+  /*background-repeat: repeat;*/
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+#test-bg::before {
+  content: "";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100vw; 
+  height: 100vh;  
+  opacity: .4; 
+  z-index: 2;
+  background: url("./images/pattern.png");
+  background-repeat-x: repeat;
+  
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+
+#text-info {
+  height: 100vh;
+}
+
+#text-info .text_body {
+  padding-left: 4em;
+  margin-top: 15vh;
+}
+
+.text_body .degrees {
+  margin-bottom: -1em;
+  font-size: .9rem;
+}
+
+.text_body h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin-bottom: .75em;
+}
+
+#text-info .text_body_main {
+  font-size: .9rem;
+}
+
+
+#text-info img {
+  max-width: 100%;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+#picture-carousel {
+  height: 100vh;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10%;
+}
+
+.carousel-wrapper {
+  height: 77%;
+}
+
+.carousel-container {
+  margin-left: 12%;
+  height: 100%;
+  background: #2E2E2E;
+  color: white;
+}
+
+.carousel-container .main_img {
+  max-width: 100%;
+  position: relative;
+  top: -3em;
+  left: -3em;
+}
+
+.carousel-container-text {
+  height: 90%;
+}
+
+.carousel-container-text .read_more_symbol{
+  width: 1.5em;
+  height: .25em;
+  display: inline-block;
+  background: red;
+  vertical-align: middle;
+}
+
+.carousel-container-text .paragraph{
+  line-height: 1.6;
+}
+
+.carousel-offset-pic {
+  width: 12%;
+  background: #2E2E2E;
+  height: 100%;
+  margin-left: auto;
+}
+
+.carousel-offset-pic img {
+  max-height: 100%;
+  overflow: hidden;
+  position: relative;
+  top: -3em;
+  left: -3em;
+}
+
+
+.carousel-logos img {
+  max-height: 1.8em;
+  margin-right: 1em;
+}
+
+/*--------------------------------------------------------------------------------------*/
+#text-wall .main-title {
+  text-align: center;
+}
+
+
+#text-wall h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin-bottom: 1.5em;
+}
+
+.text-col {
+  width: 27%;
+  font-size: .9rem;
+}
+
