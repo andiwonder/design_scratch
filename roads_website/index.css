@@ -162,7 +162,7 @@ body {
 }
 
 .carousel-wrapper {
-  height: 77%;
+  height: 80%;
 }
 
 .carousel-container {
@@ -221,6 +221,15 @@ body {
   text-align: center;
 }
 
+#text-wall #text-container {
+  padding: 0 3em;
+}
+
+#text-wall #text-container .text-col:last-child p {
+  padding-bottom: 2em;
+  border-bottom: 1px dashed black;
+}
+
 
 #text-wall h1 {
   text-transform: uppercase;
@@ -234,3 +243,110 @@ body {
   font-size: .9rem;
 }
 
+#text-wall button {
+  margin: 4em auto;
+  border-radius: 0;
+}
+
+
+/*--------------------------------------------------------------------------------------*/
+
+#video-showcase {
+  height: 85vh;
+}
+
+#video-showcase .row {
+  height: 70%;
+  margin-top: 5%;
+}
+
+#video-showcase .img-left {
+  background: linear-gradient(rgba(40,44,53, 0.7), rgba(40,44,53, 0.7)), url(images/lycan.png);
+  background-size: cover;
+  background-position: right top;
+  color: white;
+}
+
+#video-showcase .img-middle {
+  background: linear-gradient(rgba(40,44,53, 0.7), rgba(40,44,53, 0.7)), url(images/am_loading.png);
+  background-size: cover;
+  color: white;
+}
+
+#video-showcase .img-middle div {
+  padding-left: 4em;
+  padding-bottom: 4em;
+}
+
+#video-showcase .img-right {
+  background: linear-gradient(rgba(40,44,53, 0.7), rgba(40,44,53, 0.7)), url(images/ti4.jpg);
+  background-size: cover;
+  background-position: left top;
+  color: white;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+#text-info-2 {
+  height: 100vh;
+  padding-left: 2em;
+}
+
+#text-info-2 h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+#text-info-2 p {
+  font-size: .9rem;
+}
+
+
+#text-info-2 img {
+  width: 100%;
+  height: 155%;
+  /* object-fit: contain; */
+  /*overflow: hidden;*/
+  /* max-width: 100%; */
+  object-fit: cover;
+}
+
+#text-info-2 .read_more_symbol{
+  width: 1.5em;
+  height: .25em;
+  display: inline-block;
+  background: red;
+  vertical-align: middle;
+}
+
+
+/*--------------------------------------------------------------------------------------*/
+
+#text-info-3 {
+  height: 100vh;
+  background-color: #2E2E2E;
+  margin-top: -8em;
+  padding-top: 12em;
+  color: white;
+  padding-left: 2em;
+}
+
+#text-info-3 h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+#text-info-3 p {
+  font-size: .9rem;
+  margin-bottom: 1.5em;
+}
+
+#text-info-3 .read_more_symbol{
+  width: 1.5em;
+  height: .25em;
+  display: inline-block;
+  background: red;
+  vertical-align: middle;
+}
