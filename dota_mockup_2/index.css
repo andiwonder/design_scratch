@@ -1,0 +1,255 @@
+#pattern9 {
+  color: #363743;
+  /*background:linear-gradient(rgba(250,251,253, 0.05), rgba(250,251,253, 0.05)), url("./images/memphis_3.png")repeat center center;*/
+  /*background:linear-gradient(rgba(250,251,253, 0.25), rgba(250,251,253, 0.25)), url("./images/pattern_bg_5.png")repeat center center;*/
+  /*background:linear-gradient(rgba(250,251,253, 0.25), rgba(250,251,253, 0.25)), url("./images/pattern_bg_13.jpg")repeat center center fixed;*/
+  /*background:linear-gradient(rgba(250,251,253, 0.25), rgba(250,251,253, 0.25)), url("./images/memphis_8.jpg")no-repeat center center fixed;*/
+  background:linear-gradient(rgba(34, 51, 62, 0.5), rgba(34, 51, 62, 0.5)), url("./images/memphis_8.jpg")no-repeat center center fixed;
+  background-size: cover;
+  padding-top: 5em;
+}
+
+img {
+  max-width: 100%;
+}
+
+.stats-nav {
+  margin-top: 5rem;
+}
+
+.statistic {
+  background: #333;
+  color: white;
+}
+
+.value {
+  font-size: 2em;
+  line-height: 1em;
+  text-align: center;
+}
+
+.label {
+  color: inherit;
+  display: block;
+  font-size: .8em;
+  text-align: center;
+}
+
+nav, .nav {
+  background: #F92D33;
+}
+
+nav a, .nav > li > a {
+  color: black;
+  border-bottom: 2px solid white;
+}
+
+.feed_section {
+  margin: 5em 0;
+}
+
+.feed_hero_pic {
+  background: #dae6e6;
+  text-align: center;
+}
+
+.feed_hero_pic img{
+  width: 70%;
+  vertical-align: bottom;
+}
+
+
+.metadata {
+  font-size: .8em;
+  float: right;
+}
+
+#pattern10 {
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background:  linear-gradient(rgba(34, 51, 62, 0.5), rgba(34, 51, 62, 0.5)), url("./images/lycan_bg.jpg")no-repeat center center fixed;
+  /*background:  linear-gradient(rgba(34, 51, 62, 0.5), rgba(34, 51, 62, 0.5)), url("./images/sven_bg.jpg")no-repeat center center fixed;*/
+  /*background:linear-gradient(rgba(250,251,253, 0.1), rgba(250,251,253, 0.1)), url("./images/sven_bg.jpg")no-repeat center center fixed;*/
+  background-size: cover;
+}
+
+.stats-box {
+  padding-left: 2em !important;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  border: 1px solid #CFCFD4;
+  margin: 0 .75em;
+  border-radius: .3em;
+  background: white;
+}
+
+.stats-box h2{
+  font-weight: bold;
+  color: #16191C;
+  letter-spacing: .05em;
+}
+
+.stats-box h6 {
+  color: #7B7F82;
+  font-weight: 400;
+  font-size: .8rem;
+}
+
+.stats-row {
+  margin-bottom: 1.5em;
+}
+
+.stats-percentage {
+  background-color: black;
+  height: .5em;
+  width: 80%;
+}
+
+.matchups-table {
+  color: black;
+  /*padding-left: 1em;*/
+}
+
+.matchups-table .hero-pic-column {
+  width: 5rem;
+}
+
+.matchups-table tr {
+  /*background-color: #E3E3E7;*/
+  background: white;
+}
+
+.matchups-table img{
+  width: 3rem;
+}
+
+.matchups-number {
+  font-size: .85rem;
+  font-weight: bold;
+  letter-spacing: .1em;
+}
+
+/*https://stackoverflow.com/questions/18729638/rounded-tables-in-twitter-bootstrap-3
+
+.table-curved {
+   border-collapse: separate;
+   border: solid #ccc 1px;
+   border-radius: 4px;
+   border-left: 0px;
+   border-top: 0px;
+}
+.table-curved > thead:first-child > tr:first-child > th {
+    border-bottom: 0px;
+    border-top: solid #ccc 1px;
+}
+.table-curved td, .table-curved th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+.table-curved > :first-child > :first-child > :first-child {
+    border-radius: 4px 0 0 0;
+}
+.table-curved > :first-child > :first-child > :last-child {
+    border-radius: 0 4px 0 0;
+}
+.table-curved > :last-child > :last-child > :first-child {
+    border-radius: 0 0 0 4px;
+}
+.table-curved > :last-child > :last-child > :last-child {
+    border-radius: 0 0 4px 0;
+}
+
+*/
+.hero-pic-center {
+  text-align: center;
+}
+
+#big-nav {
+  padding-top: 5em;
+  padding-bottom: 5em;
+  /*background-color: #2D314E;*/
+  min-height: 100vh;
+  background:linear-gradient(rgba(45,49,78, 0.7), rgba(45,49,78, 0.7)), url("./images/ogre_bg.jpg")no-repeat center center fixed;
+  background-size: cover;
+}
+
+.note-nav-col {
+  padding-top: .2em;
+  padding-bottom: .2em;
+  background-color: white;
+}
+
+.note-nav-col p {
+  font-size: .9rem;
+  font-weight: 400;
+  /*color: #737D95;*/
+}
+
+.note-nav-col h5 {
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-bottom: .1em;
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.note-nav-img {
+  width: 3rem;
+  border: .5px dashed black;
+  border-radius: 51%;
+  padding: .5em;
+  margin-bottom: .5em;
+  display: inline-block;
+}
+
+.note-nav-col.red-bg {
+  background-color: #FD5B5B;
+  color: white;
+}
+
+.note-nav-col.teal-bg {
+  background-color: #63CCD5;
+  color: white;
+}
+
+.note-nav-col.blue-bg {
+  background-color: #519BF0;
+  color: white;
+}
+
+.note-nav-col.yellow-bg {
+  background-color: #FEBD01;
+  color: white;
+}
+
+.note-form-row {
+  margin-top: 5em;
+}
+
+.note-form-formarea {
+  background: white;
+/*  padding-top: 2em;
+  padding-bottom: 2em;*/
+}
+
+.note-form-formarea div.label-bullet {
+  width: 1.5em;
+  height: .3em;
+  background: #FD5B5B;
+  display: inline-block;
+  position: relative;
+  top: -.25rem;
+}
+
+.note-form-formarea label.title {
+  font-weight: 600;
+  font-size: .9rem;
+  letter-spacing: .05rem;
+}
+
+.note-form-formarea .form-check-label{
+  min-width: 6rem;
+  background: #ffe4c4;
+  text-align: center;
+}

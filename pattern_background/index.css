@@ -1,0 +1,112 @@
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+/*div{
+  padding-top: 5%;
+  font-size: 6.5em;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: 'Saira Condensed', sans-serif;
+}*/
+
+h3{
+  margin-top: 0;
+  line-height: 1.2;
+}
+
+#pattern1 {
+  width: 100vw;
+  height: 100vh;
+  background: url("./images/pattern_bg_11.jpg")no-repeat center center;
+  background-size: cover;
+  color: #F4511E;
+}
+
+#pattern2 {
+  width: 100vw;
+  height: 100vh;
+  background:linear-gradient(rgba(250,251,253, 0.25), rgba(250,251,253, 0.25)), url("./images/pattern_bg_5.png")repeat center center;
+  /*background-size: cover;*/
+  color: #E53935;
+}
+
+#pattern3 {
+  width: 100vw;
+  height: 100vh;
+  background:linear-gradient(rgba(250,251,253, 0.65), rgba(250,251,253, 0.65)), url("./images/pattern_bg_3.jpg")repeat center center;
+  /*background-size: cover;*/
+}
+
+#pattern4 {
+  width: 100vw;
+  height: 100vh;
+  background: url("./images/pattern_bg_12.jpg")repeat center center;
+  /*background-size: cover;*/
+}
+
+#pattern5 {
+  width: 100vw;
+  height: 100vh;
+  color: #363743;
+  background:linear-gradient(rgba(250,251,253, 0.65), rgba(250,251,253, 0.65)), url("./images/pattern_bg_2.jpg")repeat center center;
+  /*background-size: cover;*/
+}
+
+#pattern6 {
+  width: 100vw;
+  height: 100vh;
+  background: url("./images/pattern_bg_17.jpg")repeat;
+  /*background-size: cover;*/
+}
+
+#pattern7 {
+  width: 100vw;
+  height: 100vh;
+  background:linear-gradient(rgba(240,241,253, 0.15), rgba(240,241,253, 0.15)), url("./images/pattern_bg_9.jpg")repeat center center;
+  /*background-size: cover;*/
+  color: #FFFF00;
+}
+
+#pattern8 {
+  width: 100vw;
+  height: 100vh;
+  color: #363743;
+  background:linear-gradient(rgba(250,251,253, 0.05), rgba(250,251,253, 0.05)), url("./images/pattern_bg_16.jpg")repeat center center;
+  /*background-size: cover;*/
+}
+
+#pattern9 {
+  width: 100vw;
+  height: 100vh;
+  color: #363743;
+  background:linear-gradient(rgba(34, 51, 62, 0.1), rgba(34, 51, 62, 0.1)), url("./images/memphis_3.png")repeat center center;
+  /*background-size: cover;*/
+}
+
+#pattern10 {
+  width: 100vw;
+  height: 100vh;
+  color: #FFEB3B;
+  background:linear-gradient(rgba(34, 51, 62, 0.5), rgba(34, 51, 62, 0.5)), url("./images/memphis_9.jpg")no-repeat center center;
+  background-size: cover;
+}
+
+.profile_section {
+  padding-top: 5em;
+  border-bottom: 1px solid white;
+}
+
+.profile_section img {
+  max-width: 100%;
+}
+
+.layout {
+  background-color: #6c757d;
+}
+
+
+/*#DFE1E1*/
+/*#6c757d*/
