@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Document</title>
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
   <link href="https://fonts.googleapis.com/css?family=Saira+Condensed:400,500,700" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
@@ -405,7 +406,7 @@
               <li class="list-group-item">Mental Attitude</li>
             </ul>
           </div>
-          <div class="col-9 note-form-formarea">
+          <div class="note-form-formarea col-9">
             <label class="title" for="basic-url">If You could change your pick what would you pick ?</label>
             <div class="input-group input-group-sm mb-3">
               <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
@@ -444,7 +445,7 @@
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row note-form-accordion">
       <div id="accordion" class="col-md-8 col-sm-12  offset-md-2" >
         <div class="card">
           <div class="card-header" id="headingOne">
@@ -459,11 +460,11 @@
             <div class="card-body">
               <div class="note-form-formarea">
                 <label class="title" for="basic-url"><div class="label-bullet"></div> If You could change your pick what would you pick ?</label>
-                <div class="input-group input-group-sm mb-3">
+                <div class="input-group input-group-sm mb-4 formarea-ml">
                   <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
                 </div>
                 <label class="title" for="basic-url"><div class="label-bullet"></div> Would you change your pick order ?</label>
-                <div class="mb-3">
+                <div class="mb-4 formarea-ml">
                   <div class="form-check form-check-inline">
                     <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                     <label class="form-check-label" for="inlineCheckbox1">Too Early</label>
@@ -478,7 +479,7 @@
                   </div>                
                 </div>           
                 <label class="title" for="basic-url"><div class="label-bullet"></div> Were you're picks too greedy/ too many cores ?</label>
-                <div class="mb-3">
+                <div class="mb-4 formarea-ml">
                   <div class="form-check form-check-inline">
                     <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                     <label class="form-check-label" for="inlineCheckbox1">Yes</label>
@@ -504,10 +505,26 @@
               </button>
             </h5>
           </div>
-          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-            <div class="card-body">
-              <div class="col"></div>
-              <div class="col"></div>
+          <div id="collapseTwo" class="collapse items-panel" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body row">
+              <div class="col-5">
+                <h6>Recommended Items</h6>
+                <img class="rec-item" src="https://www.dotabuff.com/assets/items/tango-daa148575735568e612a4d16bb0055cc20ce83849d14d1aac3c54a05ccb1afb3.jpg" alt="">
+                <img class="rec-item" src="https://www.dotabuff.com/assets/items/observer-ward-83cf10251bdc481b64577b1a22f793f26d736cada9f91b45b2c5b033c1e4f116.jpg" alt="">
+                <img class="rec-item" src="https://www.dotabuff.com/assets/items/clarity-3a6c35754f27ea276dd595e73326438d4bebe229f648cfc75b6fc4ec4fc942eb.jpg" alt="">
+                <img src="https://www.dotabuff.com/assets/items/animal-courier-3a551d60299e97d1f212a983a9eead4967c6c9cf49930fe39f1ffa542df02200.jpg" alt="">
+                <img class="rec-item" src="https://www.dotabuff.com/assets/items/iron-branch-11851510268a56a7ac7f5ccafb46b91f61d24f688add4a28fe4bde14759225e7.jpg" alt="">
+                <img class="rec-item" src="https://www.dotabuff.com/assets/items/enchanted-mango-4e423e0504c1827f556fb1f76f58d5af2f515aaa9837d7815908c139bf1391e4.jpg" alt="">
+              </div>
+              <div class="col-5">
+                <h6>Your Items</h6>
+                <img class="rec-item" src="https://www.dotabuff.com/assets/items/tango-daa148575735568e612a4d16bb0055cc20ce83849d14d1aac3c54a05ccb1afb3.jpg" alt="">
+                <img class="rec-item" src="https://www.dotabuff.com/assets/items/observer-ward-83cf10251bdc481b64577b1a22f793f26d736cada9f91b45b2c5b033c1e4f116.jpg" alt="">
+                <img class="rec-item" src="https://www.dotabuff.com/assets/items/clarity-3a6c35754f27ea276dd595e73326438d4bebe229f648cfc75b6fc4ec4fc942eb.jpg" alt="">
+                <img src="https://www.dotabuff.com/assets/items/animal-courier-3a551d60299e97d1f212a983a9eead4967c6c9cf49930fe39f1ffa542df02200.jpg" alt="">
+                <img class="rec-item" src="https://www.dotabuff.com/assets/items/iron-branch-11851510268a56a7ac7f5ccafb46b91f61d24f688add4a28fe4bde14759225e7.jpg" alt="">
+                <img class="rec-item" src="https://www.dotabuff.com/assets/items/enchanted-mango-4e423e0504c1827f556fb1f76f58d5af2f515aaa9837d7815908c139bf1391e4.jpg" alt="">
+              </div>
             </div>
           </div>
         </div>
@@ -528,14 +545,80 @@
         <div class="card">
           <div class="card-header" id="headingThree">
             <h5 class="mb-0">
-              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                 Mental Attitude
               </button>
             </h5>
           </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
             <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              <div class="note-form-formarea">
+                <label class="title" for="basic-url"><div class="label-bullet"></div> What was your mood going into the game ?</label>
+                <div class="mb-4">
+                  <div class="form-check col-2 mood-form">
+                    <img src="images/anger1.png" alt="">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                  </div>
+                  <div class="form-check col-2 mood-form">
+                    <img src="images/anger2.png" alt="">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">                  
+                  </div>
+                  <div class="form-check col-2 mood-form">
+                    <img src="images/anger3.png" alt="">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">                    
+                  </div>
+                  <div class="form-check col-2 mood-form">
+                    <img src="images/anger4.png" alt="">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">                    
+                  </div>  
+                  <div class="form-check col-2 mood-form">
+                    <img src="images/anger5.png" alt="">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">                    
+                  </div>                  
+                </div>
+                <label class="title" for="basic-url"><div class="label-bullet"></div> What was your mood <span class="font-weight-bold">after</span> the game ?</label>
+                <div class="mb-4">
+                  <div class="form-check col-2 mood-form">
+                    <img src="images/anger1.png" alt="">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                  </div>
+                  <div class="form-check col-2 mood-form">
+                    <img src="images/anger2.png" alt="">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">                  
+                  </div>
+                  <div class="form-check col-2 mood-form">
+                    <img src="images/anger3.png" alt="">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">                    
+                  </div>
+                  <div class="form-check col-2 mood-form">
+                    <img src="images/anger4.png" alt="">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">                    
+                  </div>  
+                  <div class="form-check col-2 mood-form">
+                    <img src="images/anger5.png" alt="">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">                    
+                  </div>                  
+                </div>  
+                <label class="title" for="basic-url"><div class="label-bullet"></div> What was your mood going into the game ?</label>
+                <div class="mb-4">
+                  <div class="form-check col-2 mood-form">
+                    <p class="halt"><span class="first-letter">H</span>ungry</p>
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                  </div>
+                  <div class="form-check col-2 mood-form">
+                    <p class="halt"><span class="first-letter">A</span>ngry</p>
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">                  
+                  </div>
+                  <div class="form-check col-2 mood-form">
+                    <p class="halt"><span class="first-letter">L</span>onely</p>
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">                    
+                  </div>
+                  <div class="form-check col-2 mood-form">
+                    <p class="halt"><span class="first-letter">T</span>ired</p>
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">                    
+                  </div>                  
+                </div>             
+              </div>
             </div>
           </div>
         </div>

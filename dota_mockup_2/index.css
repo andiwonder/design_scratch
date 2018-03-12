@@ -90,7 +90,7 @@ nav a, .nav > li > a {
 }
 
 .stats-box h6 {
-  color: #7B7F82;
+  color: #519BF0;
   font-weight: 400;
   font-size: .8rem;
 }
@@ -177,6 +177,15 @@ nav a, .nav > li > a {
   padding-top: .2em;
   padding-bottom: .2em;
   background-color: white;
+  transform: skew(-20deg);
+  transition: all .2s ease-in-out; 
+}
+
+.note-nav-col:hover { 
+  /*transform: scale(1.1); */
+  transform: skew(-20deg) scale(1.1);
+  position: relative;
+  z-index: 5;
 }
 
 .note-nav-col p {
@@ -192,6 +201,7 @@ nav a, .nav > li > a {
   margin-bottom: .1em;
   display: inline-block;
   margin-left: 1em;
+  transform: skew(20deg);
 }
 
 .note-nav-img {
@@ -201,6 +211,7 @@ nav a, .nav > li > a {
   padding: .5em;
   margin-bottom: .5em;
   display: inline-block;
+  transform: skew(20deg);
 }
 
 .note-nav-col.red-bg {
@@ -227,10 +238,20 @@ nav a, .nav > li > a {
   margin-top: 5em;
 }
 
+/*.note-form-row li {
+  transform: skew(-15deg);
+  margin-bottom: 1em;
+}*/
+
 .note-form-formarea {
   background: white;
+  padding: 2rem !important;
 /*  padding-top: 2em;
   padding-bottom: 2em;*/
+}
+
+.formarea-ml {
+  margin-left: 1.8rem;
 }
 
 .note-form-formarea div.label-bullet {
@@ -252,4 +273,52 @@ nav a, .nav > li > a {
   min-width: 6rem;
   background: #ffe4c4;
   text-align: center;
+}
+
+.note-form-accordion {
+  margin-top: 5em;
+}
+
+.note-form-accordion .card-body {
+  padding: 0;
+}
+
+.note-form-accordion .rec-item {
+  max-width: 30%;
+  margin: .25em auto;
+}
+
+.note-form-accordion .items-panel{
+  padding: 2rem;
+}
+
+
+.note-form-accordion .mood-form {
+  display: inline-block;
+  text-align: center;
+}
+
+.note-form-accordion .mood-form img{
+  max-width: 3rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.note-form-accordion .mood-form p.halt{
+  margin-bottom: 0;    
+}
+
+.note-form-accordion .card{
+  border-radius: 0;
+}
+
+.note-form-accordion .first-letter {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #FD5B5B;
+  margin-right: .05rem;
+}
+
+.note-form-accordion .mood-form input {  
+  margin: .5em -6%;
 }

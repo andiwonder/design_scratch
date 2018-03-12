@@ -350,3 +350,49 @@ body {
   background: red;
   vertical-align: middle;
 }
+
+/*--------------------------------------------------------------------------------------*/
+
+#showcase {
+  min-height: 100vh;
+}
+
+#showcase .showcase-pic {
+  background: url(images/lycan.png)no-repeat center;
+  background-size: cover;
+  min-height: 80vh;
+}
+
+#showcase .showcase-icon {
+  width: 2.8rem;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#showcase .showcase-text-intro {
+  margin-top: 10vh;
+}
+
+#showcase .showcase-title {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+#showcase .showcase-title h5{
+  /*font-size: 1rem;*/
+  margin-bottom: .25rem;
+}
+
+#showcase .showcase-title h6{
+  font-size: .9rem;
+}
+
+
+
+#showcase .showcase-text-main {
+  margin-top: 6vh;
+}
+
+#showcase .showcase-info {
+  padding: 2rem;
+}
