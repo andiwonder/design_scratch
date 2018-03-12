@@ -35,7 +35,8 @@ body {
 }
 
 .nav-right-icons i {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  color: white;
 }
 
 @media only screen  and (min-width : 1824px) {
