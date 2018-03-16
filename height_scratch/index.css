@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body { 
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+    
+#test {
+  height: 100%;
+  width: 100%;
+  border: 2px solid red;
+  padding-top: 8%;
+}
+
+.landing-title {
+  width: 30%;
+  border: 2px solid black;
+  display: block;
+  margin: 5% auto;
+  text-align: center;
+}
+
+.landing-text {
+  width: 52%;
+  margin-left: 15%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.landing-text h3 {
+  font-size: 2rem;
+}
+
+.landing-logo {
+  width: 15%;
+  display: inline-block;
+}
+
+.landing-logo img{
+  max-width: 100%;
+}
+
+#test2 {
+  height: 50%;
+  width: 100%;
+  border: 2px solid yellow;
+}

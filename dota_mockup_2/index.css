@@ -67,16 +67,16 @@ nav a, .nav > li > a {
 #pattern10 {
   padding-top: 5em;
   padding-bottom: 5em;
-  background:  linear-gradient(rgba(34, 51, 62, 0.5), rgba(34, 51, 62, 0.5)), url("./images/lycan_bg.jpg")no-repeat center center fixed;
+  background: #F0EEEF;
+  /*background:  linear-gradient(rgba(34, 51, 62, 0.5), rgba(34, 51, 62, 0.5)), url("./images/lycan_bg.jpg")no-repeat center center fixed;*/
   /*background:  linear-gradient(rgba(34, 51, 62, 0.5), rgba(34, 51, 62, 0.5)), url("./images/sven_bg.jpg")no-repeat center center fixed;*/
   /*background:linear-gradient(rgba(250,251,253, 0.1), rgba(250,251,253, 0.1)), url("./images/sven_bg.jpg")no-repeat center center fixed;*/
-  background-size: cover;
+  /*background-size: cover;*/
 }
 
 .stats-box {
-  padding-left: 2em !important;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding-left: 1em !important;
+  padding-top: .75em;
   border: 1px solid #CFCFD4;
   margin: 0 .75em;
   border-radius: .3em;
@@ -103,6 +103,16 @@ nav a, .nav > li > a {
   background-color: black;
   height: .5em;
   width: 80%;
+}
+
+.loadout-gif img {
+  max-width: 100%;
+}
+
+
+.loadout-gif {
+  background: #fef555;
+  align-self: flex-start;
 }
 
 .matchups-table {

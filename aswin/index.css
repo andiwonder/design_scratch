@@ -69,6 +69,10 @@ body {
   box-shadow: 0px 0px 13px 6px rgba(0,0,0,0.75);
 }
 
+#portfolio .portfolio-col h2{
+  font-size: 3rem;
+}
+
 
 .portfolio-row {
   margin-top: 3rem;
@@ -95,3 +99,23 @@ body {
   padding-left: 1em;
   padding-right: 1em;
 }
+
+/*-----------------------------------------------------------------------------------------*/
+
+#about .intro-section {
+  margin-bottom: 5rem;
+}
+
+#about .intro-section h2 {
+  font-size: 3rem;
+}
+
+#about img {
+  width: 100%;
+}
+
+#about .text-section p {
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
