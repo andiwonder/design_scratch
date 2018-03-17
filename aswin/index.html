@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <title>Aswin</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>  
   <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="index.css">
 </head>
@@ -42,6 +46,14 @@
               <h4>Restaurant website</h4>
               <h5>Responsive Website Design</h5>
             </div>
+            <div class="portfolio-piece-mouseover">
+              <button type="button" class="btn btn-sm btn-outline-dark">Ineraction Design</button>
+              <button type="button" class="btn btn-sm btn-outline-dark">Visual Design</button>
+              <button type="button" class="btn btn-sm btn-outline-dark">Brand Identity</button>
+              <button type="button" class="btn btn-sm btn-outline-dark">User Research</button>
+              <button type="button" class="btn btn-sm btn-outline-dark">Testing</button>
+              <button type="button" class="read-more-button btn btn-sm btn-outline-dark">Read more</button>
+            </div>
           </div>
           <div class="portfolio-piece">
             <img src="images/WKsuite.png" alt="">
@@ -49,12 +61,28 @@
               <h4>E-commerece module</h4>
               <h5>Responsive Website Design</h5>
             </div>
+            <div class="portfolio-piece-mouseover">
+              <button type="button" class="btn btn-sm btn-outline-dark">Ineraction Design</button>
+              <button type="button" class="btn btn-sm btn-outline-dark">Visual Design</button>
+              <button type="button" class="btn btn-sm btn-outline-dark">Brand Identity</button>
+              <button type="button" class="btn btn-sm btn-outline-dark">User Research</button>
+              <button type="button" class="btn btn-sm btn-outline-dark">Testing</button>
+              <button type="button" class="read-more-button btn btn-sm btn-outline-dark">Read more</button>
+            </div>
           </div>
           <div class="portfolio-piece">
             <img src="images/patientdirectlogo.png" alt="">
             <div class="portfolio-piece-text">
               <h4>E-commerece module</h4>
               <h5>Responsive Website Design</h5>
+            </div>
+            <div class="portfolio-piece-mouseover">
+              <button type="button" class="btn btn-sm btn-outline-dark">Ineraction Design</button>
+              <button type="button" class="btn btn-sm btn-outline-dark">Visual Design</button>
+              <button type="button" class="btn btn-sm btn-outline-dark">Brand Identity</button>
+              <button type="button" class="btn btn-sm btn-outline-dark">User Research</button>
+              <button type="button" class="btn btn-sm btn-outline-dark">Testing</button>
+              <button type="button" class="read-more-button btn btn-sm btn-outline-dark">Read more</button>
             </div>
           </div>
         </div>
@@ -65,12 +93,28 @@
               <h4>Restaurant website</h4>
               <h5>Responsive Website Design</h5>
             </div>
+            <div class="portfolio-piece-mouseover">
+              <button type="button" class="btn btn-sm btn-outline-dark">Ineraction Design</button>
+              <button type="button" class="btn btn-sm btn-outline-dark">Visual Design</button>
+              <button type="button" class="btn btn-sm btn-outline-dark">Brand Identity</button>
+              <button type="button" class="btn btn-sm btn-outline-dark">User Research</button>
+              <button type="button" class="btn btn-sm btn-outline-dark">Testing</button>
+              <button type="button" class="read-more-button btn btn-sm btn-outline-dark">Read more</button>
+            </div>
           </div>
           <div class="portfolio-piece">
             <img src="images/WKsuite.png" alt="">
             <div class="portfolio-piece-text">
               <h4>E-commerece module</h4>
               <h5>Responsive Website Design</h5>
+            </div>
+            <div class="portfolio-piece-mouseover">
+              <button type="button" class="btn btn-sm btn-outline-dark">Ineraction Design</button>
+              <button type="button" class="btn btn-sm btn-outline-dark">Visual Design</button>
+              <button type="button" class="btn btn-sm btn-outline-dark">Brand Identity</button>
+              <button type="button" class="btn btn-sm btn-outline-dark">User Research</button>
+              <button type="button" class="btn btn-sm btn-outline-dark">Testing</button>
+              <button type="button" class="read-more-button btn btn-sm btn-outline-dark">Read more</button>
             </div>
           </div>
         </div>
@@ -105,4 +149,13 @@
     </div>
   </div>
 </body>
+<script>
+  $( "div.portfolio-piece" )
+  .on( "mouseenter", function() {
+    $(this).find(".portfolio-piece-mouseover").css("display", "flex");
+  })
+  .on( "mouseleave", function() {
+    $(this).find(".portfolio-piece-mouseover").css("display", "none");
+  });  
+</script>
 </html>
