@@ -2,6 +2,10 @@ body {
   font-family: 'helvetica neue';
 }
 
+body, html {
+  height: 100%;
+}
+
 #main-nav {
   background: #519BF0;
 }
@@ -19,9 +23,20 @@ body {
 }
 
 #landing-page {
-  background: url("./images/BG.png") no-repeat center center;
+  /*background: url("./images/BG.png") no-repeat center center;
   background-size: cover;
-  height: 120vh;
+  height: 120vh;*/
+  position: relative;
+  min-height: 100%;
+}
+
+.background-image {
+  position: absolute;
+  width: 80%;
+  height: auto;
+  top: 20%;
+  left: 10%;
+  z-index: -2;
 }
 
 #landing-page .landing-text {
@@ -39,6 +54,10 @@ body {
   color: white;
 }
 
+.landing-text h1 {
+  font-size: 2.25rem;
+}
+
 @media only screen  and (min-width : 1824px) {
   #landing-page {
     height: 110vh;
@@ -49,24 +68,24 @@ body {
   }
 
   #landing-page .landing-text h1{
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 }
 
 /*-----------------------------------------------------------------------------------------*/
 
 #portfolio {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  background: #ECEDF1;
 }
 
 #portfolio .portfolio-col {
-  margin: 0 auto;
+  margin: 5rem auto;
   min-height: 100vh;
   /*border: 2px solid black;*/
   padding: 3rem;
   -moz-box-shadow: 0px 0px 13px 6px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 13px 6px rgba(0,0,0,0.75);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  background: white;
 }
 
 #portfolio .portfolio-col h2{
