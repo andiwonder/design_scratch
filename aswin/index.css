@@ -90,8 +90,43 @@ body {
   border-bottom: .5em solid yellow;
   -webkit-box-shadow: 0px 23px 0px -15px rgba(255,255,0,0.9), 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   -moz-box-shadow: 0px 23px 0px -15px rgba(255,255,0,0.9),  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  box-shadow: 0px 23px 0px -15px rgba(255,255,0,0.9),  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);;
+  box-shadow: 0px 23px 0px -15px rgba(255,255,0,0.9),  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   position: relative;
+}
+
+.portfolio-piece-purple {
+  border-bottom: .5em solid rgba(192, 141, 245, 1);
+  -webkit-box-shadow: 0px 23px 0px -15px rgba(192, 141, 245, .9), 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  -moz-box-shadow: 0px 23px 0px -15px rgba(192, 141, 245, .9),  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0px 23px 0px -15px rgba(192, 141, 245, .9),  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.portfolio-piece-red {
+  border-bottom: .5em solid rgba(235, 99, 106, 1);
+  -webkit-box-shadow: 0px 23px 0px -15px rgba(235, 99, 106, .9), 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  -moz-box-shadow: 0px 23px 0px -15px rgba(235, 99, 106, .9),  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0px 23px 0px -15px rgba(235, 99, 106, .9),  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.portfolio-piece-blue {
+  border-bottom: .5em solid rgba(80, 201, 246, 1);
+  -webkit-box-shadow: 0px 23px 0px -15px rgba(80, 201, 246, .9), 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  -moz-box-shadow: 0px 23px 0px -15px rgba(80, 201, 246, .9),  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0px 23px 0px -15px rgba(80, 201, 246, .9),  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.portfolio-piece-green {
+  border-bottom: .5em solid rgba(112, 201, 175, 1);
+  -webkit-box-shadow: 0px 23px 0px -15px rgba(112, 201, 175, .9), 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  -moz-box-shadow: 0px 23px 0px -15px rgba(112, 201, 175, .9),  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0px 23px 0px -15px rgba(112, 201, 175, .9),  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.portfolio-piece-orange {
+  border-bottom: .5em solid rgba(249, 152, 62, 1);
+  -webkit-box-shadow: 0px 23px 0px -15px rgba(249, 152, 62, .9), 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  -moz-box-shadow: 0px 23px 0px -15px rgba(249, 152, 62, .9),  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0px 23px 0px -15px rgba(249, 152, 62, .9),  0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .portfolio-piece-mouseover {
@@ -107,6 +142,26 @@ body {
   flex-direction: flex-row;
   flex-wrap: wrap;
   align-content: flex-start;  
+}
+
+.mouse-over-purple {
+  background-color: rgba(192, 141, 245, .8);
+}
+
+.mouse-over-red {
+  background-color: rgba(235, 99, 106, .8);
+}
+
+.mouse-over-blue {
+  background-color: rgba(80, 201, 246, .9);
+}
+
+.mouse-over-green {
+  background-color: rgba(112, 201, 175, .9);
+}
+
+.mouse-over-orange {
+  background-color: rgba(249, 152, 62, .9);
 }
 
 .portfolio-piece-mouseover button{
@@ -127,7 +182,32 @@ body {
   padding-right: 1em;
 }
 
+
+
+.btn-light:disabled {
+  color: #151515;  
+}
+
+.btn:disabled {
+  opacity: 1;
+}
+
+/*$colors {
+  purple : #C08DF5;
+  red: #EB636A;
+  blue: #50C9F6;
+  green: #70C9AF;
+  orange: #F9983E;
+}
+*/
+
+
 /*-----------------------------------------------------------------------------------------*/
+
+#about {
+  margin-bottom: 5rem;
+}
+
 
 #about .intro-section {
   margin-bottom: 5rem;
@@ -146,3 +226,18 @@ body {
   font-size: 1.2rem;
 }
 
+/*-----------------------------------------------------------------------------------------*/
+
+.work-page h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.work-page h4 {
+  font-size: 1.25rem;
+}
+
+.work-page p {
+  font-size: .9rem;
+}
