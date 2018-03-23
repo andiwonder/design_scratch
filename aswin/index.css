@@ -27,15 +27,16 @@ body, html {
   background-size: cover;
   height: 120vh;*/
   position: relative;
-  min-height: 84%;
+  min-height: 85%;
+  background: rgba(21,181,199,.1);
 }
 
 .background-image {
   position: absolute;
-  width: 75%;
+  width: 64%;
   height: auto;
   top: 4%;
-  left: 12.5%;
+  left: 18%;
   z-index: -2;
   opacity: .9;
 }
@@ -304,4 +305,11 @@ body, html {
 
 .work-page p {
   font-size: .9rem;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+#work-3 p {
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
