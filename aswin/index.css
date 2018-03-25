@@ -262,6 +262,8 @@ body, html {
 
 #contact {
   min-height: 100vh;
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
 
 .contact-form {
@@ -287,11 +289,43 @@ body, html {
   border-radius: 50%;
 }
 
+/*----------- ------------------------------------------------------------------------------*/
+
+/*#imgModal .modal-dialog{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  top: 0;
+  left: 0;
+}*/
+
+#imgModal {
+  padding-right: 0 !important;
+}
 
 
+#imgModal .modal-dialog {
+  max-width: 100%;
+  height: 100%;
+  padding: 0;
+  margin:0;
+}
+
+#imgModal .modal-content {    
+  height: 100%;
+  border-radius: 0;
+  color:white;
+  overflow:auto;
+}
+
+#imgModal .modal-img {
+  display: block;
+  margin: 0 auto;
+  width: 100vw;
+}
 
 
-/*-----------------------------------------------------------------------------------------*/
+/*----------- ------------------------------------------------------------------------------*/
 
 .work-page h2 {
   font-size: 2rem;
