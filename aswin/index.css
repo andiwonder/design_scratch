@@ -1,9 +1,18 @@
 body {
-  font-family: 'helvetica neue';
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
 
 body, html {
   height: 100%;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, button {
+  font-family: 'Roboto', sans-serif;
 }
 
 #main-nav {
@@ -23,28 +32,44 @@ body, html {
 }
 
 #landing-page {
-  /*background: url("./images/BG.png") no-repeat center center;
-  background-size: cover;
-  height: 120vh;*/
+  /*background: url("./images/BG.png")no-repeat center center;*/
+  /*background-size: cover;*/
+  /*height: 120vh;*/
   position: relative;
   min-height: 85%;
-  background: rgba(21,181,199,.1);
+  /*background: rgba(21,181,199,.1);*/
 }
 
-.background-image {
+.landing-text h1 {
+  font-size: 3.37rem;
+  font-weight: 900;
+}
+
+.landing-text h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  color: rgb(36, 36, 36);
+}
+
+#landing-page img {
+  /*margin-top: 1vh;*/
+}
+
+/*.background-image {
   position: absolute;
-  width: 64%;
+  width: 71%;
   height: auto;
-  top: 4%;
-  left: 18%;
+  top: 1%;
+  left: 11%;
   z-index: -2;
   opacity: .9;
-}
+}*/
 
 #landing-page .landing-text {
-  margin-top: 28vh;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 15vh;
+  margin-left: 5%;
+  /*background:linear-gradient(rgba(34, 51, 62, 0.5), rgba(34, 51, 62, 0.5));*/
+  /*color: white;  */
 }
 
 .nav-icon img {
@@ -56,9 +81,6 @@ body, html {
   color: white;
 }
 
-.landing-text h1 {
-  font-size: 2.25rem;
-}
 
 @media only screen  and (min-width : 1824px) {
   #landing-page {
@@ -92,6 +114,7 @@ body, html {
 
 #portfolio .portfolio-col h2{
   font-size: 3rem;
+  color: #EC5A60;
 }
 
 
@@ -237,36 +260,52 @@ body, html {
 /*-----------------------------------------------------------------------------------------*/
 
 #about {
-  margin-bottom: 5rem;
+  /*margin-bottom: 5rem;*/
+  /*-moz-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
+  min-height: 100%;
 }
 
 
+.about-row-container {
+  display: block;
+  margin: 5% auto;
+  -moz-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  padding: 1em;
+}
+
 #about .intro-section {
-  margin-bottom: 5rem;
+  /*margin-bottom: 5rem;*/
 }
 
 #about .intro-section h2 {
   font-size: 3rem;
+  color: #EC5A60;
 }
 
-#about img {
-  width: 100%;
+.about-image {
+  max-width: 50%;
+  float: right;
+  margin-left: 2.5em;
+  margin-bottom: 2.5em;
 }
 
 #about .text-section p {
-  text-align: justify;
-  font-size: 1.2rem;
+  /*text-align: justify;*/
+  font-size: 1.4rem;
 }
 
 /*-----------------------------------------------------------------------------------------*/
 
 #contact {
-  min-height: 100vh;
-  margin-top: 5em;
-  margin-bottom: 5em;
+  min-height: 100%;  
+  padding: 5% 0;
+  background-color: #ECEDF1;
 }
 
 .contact-form {
+  background-color: white;
   padding: 3rem;
   min-height: 60%;
   -moz-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -282,6 +321,12 @@ body, html {
 .contact-form h5 {
   display: inline-block;
 }
+
+.contact-form h2 {
+  font-size: 3rem;
+  color: #EC5A60;
+}
+
 
 .icon-div {
   display: inline-block;
@@ -331,14 +376,16 @@ body, html {
   font-size: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  color: #EC5A60;
 }
 
 .work-page h4 {
-  font-size: 1.25rem;
+  font-size: 1.6rem;
+  font-weight: 900;
 }
 
 .work-page p {
-  font-size: .9rem;
+  font-size: 1.2rem;
 }
 
 /*-----------------------------------------------------------------------------------------*/
@@ -346,4 +393,54 @@ body, html {
 #work-3 p {
   margin-top: 2em;
   margin-bottom: 2em;
+}
+
+
+/*-----------------------------------------------------------------------------------------*/
+.to-top {
+  background-color: #ECEDF1;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.to-top a{
+  font-size: 1.5rem; 
+  color: #EC5A60;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.to-top i {
+  font-size: 2rem;
+}
+
+
+#main-footer {
+  background: #D8D8D8;
+  font-size: 1.25em;
+  padding: 1em;
+}
+
+.footer-right-icons {
+  font-size: 1.25em;
+  margin-left: 2em;
+}
+
+.footer-right-icons a{ 
+  color: red;
+}
+
+.footer-logo {
+  width: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.footer-copyright {
+  margin-right: auto;
+}
+
+#main-footer nav {
+  margin-right: auto;
 }

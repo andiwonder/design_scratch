@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Curreny converter</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700|Source+Sans+Pro:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>  
+  <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <script
+  src="http://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>  
+</head>
+<body>
+  <div class="container-fluid" id="currency-page">
+    <div class="row d-flex justify-content-around">
+      <div class="col-3" id="selection-row-row">
+<!--         <div class="row">
+          <div class="rounded-circle border border-secondary">
+            <h1>1</h1>
+          </div>
+        </div> -->
+        <div class="row mb-4">
+          <input type="text" class="form-control" placeholder="Search currency" aria-label="currency-1" aria-describedby="basic-addon1">          
+        </div>
+        <div class="row w-100 d-flex justify-content-center" id="selection-row-1">
+          <div class="w-100 my-2 mx-2
+                      currency-page-display 
+                      d-flex flex-row p-2 
+                      align-items-start">
+            <img src="https://fxmapper.com/images/flags/Australia-flag-48.png" alt="">
+            <div class="ml-4">
+              <h5>Australion dollar</h5>
+              <h6>1 USD = 1.32 AUD</h6>                
+            </div>
+          </div>               
+        </div>
+      </div>
+      <div class="col-3" id="selection-row-row">
+        <div class="row mb-4">
+          <input type="text" class="form-control" placeholder="Search currency" aria-label="Username" aria-describedby="basic-addon1">          
+        </div>
+        <div class="row w-100 d-flex justify-content-center" id="selection-row-2">
+          <div class="w-100 my-2 mx-2
+                      currency-page-display 
+                      d-flex flex-row p-2 
+                      align-items-start">
+            <img src="https://fxmapper.com/images/flags/Australia-flag-48.png" alt="">
+            <div class="ml-4">
+              <h5>Australion dollar</h5>
+              <h6>1 USD = 1.32 AUD</h6>                
+            </div>
+          </div>               
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="w-100 currency-page-display d-flex flex-row p-2">
+          <img src="https://fxmapper.com/images/flags/Australia-flag-48.png" alt="">
+          <div class="ml-4">
+            <h5>Australion dollar</h5>
+            <h6>1 USD = 1.32 AUD</h6>                
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="index.js"></script>  
+</body>
+</html>

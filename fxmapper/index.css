@@ -1,0 +1,47 @@
+body {
+  background: #ecedf1;
+}
+
+#currency-page {
+  padding-top: 15vh;
+}
+
+h5 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-top: 0.25rem;
+}
+.col-3 {
+  max-width: 30%;
+  flex: 0 0 30%;
+}
+h6 {
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+#selection-row-1,
+#selection-row-2 {
+  max-height: 70vh;
+  overflow-y: scroll;
+  /*background: #f3f3f3;*/
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.currency-page-display {
+  background: white;
+}
+
+input {
+  margin-left: 0.5rem;
+  margin-right: 1.3rem;
+}
+
+.currency-page-display:first-child {
+  margin-top: 0rem !important;
+}
+
+.currency-page-display:last-child {
+  margin-bottom: 0rem !important;
+}

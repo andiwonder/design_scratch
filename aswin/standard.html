@@ -8,22 +8,25 @@
   src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
   integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
   crossorigin="anonymous"></script>  
+  <link rel="icon" 
+      type="image/png" 
+      href="http://example.com/myicon.png">
   <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
   <div id="main-nav" class="d-flex flex-column flex-md-row align-items-center justify-content-around p-2 px-md-4 border-bottom box-shadow">
     <div class="nav-icon">
-      <img src="images/arvk.png" alt="">      
+      <a href="./index.html"><img src="images/arvk.png" alt=""></a>
     </div>
     <nav class="my-2 my-md-0 mr-md-3 w-50 d-flex justify-content-between">
-      <a class="p-2" href="#portfolio">Portfolio</a>
-      <a class="p-2" href="#about">About</a>
-      <a class="p-2" href="#contact">Contact</a>      
+      <a class="p-2" href="./index.html#portfolio">Portfolio</a>
+      <a class="p-2" href="./index.html#about">About</a>
+      <a class="p-2" href="./index.html#contact">Contact</a>      
     </nav>
     <div class="nav-right-icons">
-      <i class="far fa-envelope mr-md-3"></i>
-      <i class="fab fa-linkedin"></i>
+      <a href="mailto:aswin.ravindran@outlook.com"><i class="far fa-envelope mr-md-3"></i></a>
+      <a href="https://www.linkedin.com/in/uxdaswinravindran/" target="_blank"><i class="fab fa-linkedin"></i></a>
     </div>
   </div>
   <div class="modal fade" id="imgModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -43,7 +46,7 @@
   <div id="work-2" class="container-fluid work-page">
     <div class="row mb-3">
       <div class="col-10 offset-md-1">
-        <h2>Standard Process - Patient Direct E-commerece module</h2>
+        <h2>Standard Process - Patient Direct E-commerce module</h2>
         <div class="row">
           <div class="col-8 border-left">
             <h4>Overview</h4>
@@ -62,18 +65,18 @@
               </div>
               <div class="col-12 border-left">
                 <h4>Role</h4>
-                <p>Ineraction Design, Visual Design, Brand Identity, User Research, Testing.</p>
+                <p>Interaction Design, Visual Design, Brand Identity, User Research, Testing.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="row mb-3">
+<!--     <div class="row mb-3">
       <div class="col offset-md-1">
         <h6 style="color: #F44336;"><strong>Note: You can click on Images to view them in fullscreen</strong></h6>
       </div>
-    </div>    
+    </div>   -->  
     <div class="row mb-3">
       <div class="col-5 offset-md-1">
         <h4>Process</h4>
@@ -171,15 +174,21 @@
       </div>
     </div>
   </div>
-  <div id="main-footer" class="d-flex flex-column flex-md-row align-items-center justify-content-around p-2 px-md-4 border-bottom box-shadow">
-    <nav class="my-2 my-md-0 mr-md-3 d-flex justify-content-between">
-      <a class="p-2" href="#">Portfolio</a>
-      <a class="p-2" href="#">About</a>
-      <a class="p-2" href="#">Contact</a>      
+  <div id="main-footer" class="d-flex flex-row align-items-center justify-content-between p-3 border-bottom box-shadow">
+    <div>
+      <img src="images/arvk.png" alt="" class="footer-logo">
+    </div>
+    <div class="footer-copyright">
+      <p class="my-0">&copy; 2018 Aswin Ravindran</p>
+    </div>
+    <nav class="d-flex justify-content-between w-50">
+      <a class="p-2" href="./index.html#portfolio">Portfolio</a>
+      <a class="p-2" href="./index.html#about">About</a>
+      <a class="p-2" href="./index.html#contact">Contact</a>      
     </nav>
-    <div class="nav-right-icons">
-      <i class="far fa-envelope mr-md-3"></i>
-      <i class="fab fa-linkedin"></i>
+    <div class="footer-right-icons">
+      <a href="mailto:aswin.ravindran@outlook.com"><i class="far fa-envelope mr-md-3"></i></a>
+      <a href="https://www.linkedin.com/in/uxdaswinravindran/" target="_blank"><i class="fab fa-linkedin"></i></a>
     </div>
   </div>
 </body>
@@ -192,5 +201,14 @@
       $('#imgModal').modal('show'); 
     });
   });
+</script>
+<script type="text/javascript" defer>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-116694864-1', 'auto');
+  ga('send', 'pageview');
 </script>
 </html>

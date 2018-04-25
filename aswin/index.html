@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Aswin</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700|Source+Sans+Pro:300,400" rel="stylesheet">
+  <link rel="icon" 
+      type="image/png" 
+      href="./images/arvk.png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script
   src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -14,7 +18,7 @@
 <body>
   <div id="main-nav" class="d-flex flex-column flex-md-row align-items-center justify-content-around p-2 px-md-4 border-bottom box-shadow">
     <div class="nav-icon">
-      <img src="images/arvk.png" alt="">      
+      <a href="./index.html"><img src="images/arvk.png" alt=""></a>
     </div>
     <nav class="my-2 my-md-0 mr-md-3 w-50 d-flex justify-content-between">
       <a class="p-2" href="#portfolio">Portfolio</a>
@@ -22,18 +26,22 @@
       <a class="p-2" href="#contact">Contact</a>      
     </nav>
     <div class="nav-right-icons">
-      <i class="far fa-envelope mr-md-3"></i>
-      <i class="fab fa-linkedin"></i>
+      <a href="mailto:aswin.ravindran@outlook.com"><i class="far fa-envelope mr-md-3"></i></a>
+      <a href="https://www.linkedin.com/in/uxdaswinravindran/" target="_blank"><i class="fab fa-linkedin"></i></a>
     </div>
   </div>
   <div id="landing-page" class="container-fluid">
-    <img src="images/BG.svg" class="background-image" alt="">
+    <!-- <img src="images/BG.svg" class="background-image" alt=""> -->
     <div class="row">
-    <div class="col-6 landing-text">
-      <h1>
-        <strong>I'm Aswin</strong>, a designer and a avid user's advocate specializing in crafting seamless interaction experiences for digital products.
-      </h1>      
-    </div>
+      <div class="col-5 landing-text">
+        <h1>I'm Aswin,</h1>
+        <h2>
+           A designer and a avid user's advocate specializing in crafting seamless interaction experiences for digital products.
+        </h>      
+      </div>
+      <div class="col-6">
+        <img src="./images/BG2.png" class="img-fluid" alt="">
+      </div>
     </div>
   </div>
   <div id="portfolio" class="container-fluid">
@@ -44,13 +52,14 @@
           <div class="portfolio-piece portfolio-piece-orange">
             <img src="images/WKsuite.png" alt="">
             <div class="portfolio-piece-text">
-              <h4>E-commerece module</h4>
-              <h5>Responsive Website Design</h5>
+              <h4>Risk and Compliance Software</h4>
+              <h5>Web and App Design</h5>
             </div>
             <div class="portfolio-piece-mouseover mouse-over-orange">
-              <button type="button" class="btn btn-sm btn-outline-light" disabled>Ineraction Design</button>
+              <button type="button" class="btn btn-sm btn-outline-light" disabled>Interaction Design</button>
               <button type="button" class="btn btn-sm btn-outline-light" disabled>Visual Design</button>
               <button type="button" class="btn btn-sm btn-outline-light" disabled>Brand Identity</button>
+              <button type="button" class="btn btn-sm btn-outline-light" disabled>Prototyping</button>
               <button type="button" class="btn btn-sm btn-outline-light" disabled>User Research</button>
               <button type="button" class="btn btn-sm btn-outline-light" disabled>Testing</button>
               <a href="./wolters.html" class="read-more-button btn btn-sm btn-outline-dark" role="button">Read More</a>
@@ -59,37 +68,39 @@
           <div class="portfolio-piece portfolio-piece-blue">
             <img src="images/patientdirectlogo.png" alt="">
             <div class="portfolio-piece-text">
-              <h4>E-commerece module</h4>
+              <h4>E-commerce module</h4>
               <h5>Responsive Website Design</h5>
             </div>
             <div class="portfolio-piece-mouseover mouse-over-blue">
-              <button type="button" class="btn btn-sm btn-outline-light" disabled>Ineraction Design</button>
+              <button type="button" class="btn btn-sm btn-outline-light" disabled>Interaction Design</button>
               <button type="button" class="btn btn-sm btn-outline-light" disabled>Visual Design</button>
               <button type="button" class="btn btn-sm btn-outline-light" disabled>Brand Identity</button>
+              <button type="button" class="btn btn-sm btn-outline-light" disabled>Prototyping</button>
+              <button type="button" class="btn btn-sm btn-outline-light" disabled>Responsive Frontend development</button>
               <button type="button" class="btn btn-sm btn-outline-light" disabled>User Research</button>
               <button type="button" class="btn btn-sm btn-outline-light" disabled>Testing</button>
               <a href="./standard.html" class="read-more-button btn btn-sm btn-outline-dark" role="button">Read More</a>
             </div>
           </div>
           <div class="portfolio-piece portfolio-piece-red">
-            <img src="images/WKsuite.png" alt="">
+            <img src="images/hobnnob.png" alt="">
             <div class="portfolio-piece-text">
-              <h4>E-commerece module</h4>
-              <h5>Responsive Website Design</h5>
+              <h4>Socializing app</h4>
+              <h5>App design</h5>
             </div>
             <div class="portfolio-piece-mouseover mouse-over-red">
-              <button type="button" class="btn btn-sm btn-outline-light" disabled>Ineraction Design</button>
+              <button type="button" class="btn btn-sm btn-outline-light" disabled>Interaction Design</button>
               <button type="button" class="btn btn-sm btn-outline-light" disabled>Visual Design</button>
-              <button type="button" class="btn btn-sm btn-outline-light" disabled>Brand Identity</button>
+              <button type="button" class="btn btn-sm btn-outline-light" disabled>Prototyping</button>
               <button type="button" class="btn btn-sm btn-outline-light" disabled>User Research</button>
               <button type="button" class="btn btn-sm btn-outline-light" disabled>Testing</button>
               <a href="./hob.html" class="read-more-button btn btn-sm btn-outline-dark" role="button">Read More</a>
             </div>
           </div>
         </div>
-        <div class="row portfolio-row d-flex justify-content-center portfolio-two">
+<!--         <div class="row portfolio-row d-flex justify-content-center portfolio-two">
           <div class="portfolio-piece portfolio-piece-green">
-            <img src="images/Columbos-pizzeria.png" alt="">
+            <img src="images/RedfernLogo.png" alt="">
             <div class="portfolio-piece-text">
               <h4>Restaurant website</h4>
               <h5>Responsive Website Design</h5>
@@ -118,36 +129,38 @@
               <a href="./wolters.html" class="read-more-button btn btn-sm btn-outline-dark" role="button">Read More</a>              
             </div>
           </div>          
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
   <div id="about" class="container-fluid">
-    <div class="row intro-section">
-      <div class="col-3 offset-md-1">
-        <h2>About Me</h2>        
-      </div>
-      <div class="col-6">
-        <img src="https://thumbs.dreamstime.com/t/small-team-ux-designers-creating-mobile-app-layout-stock-footage-small-team-ux-designers-creating-mobile-app-layout-99267940.jpg" alt="">
-      </div>
-    </div>
-    <div class="row text-section">
-      <div class="col-10 offset-md-1">
-        <p>
-          I'm Aswin, a New York City based user experience designer currently making products and experiences at Wolters Kluwer.       
-        </p>
-        <p>
-          Design is my passion. Using the skills I have acquired over the years, I love creating new products or services iterating from a paper sketch to a fully functional product. 
-        </p>
-        <p>
-          I was born and raised in Chennai, India, then moved to Coimbatore for high school and graduated from Anna University with a Bachelors in Mechanical Engineering. While pursuing my Bachelors, I developed the interest in designing posters, certificates, and invitations for product design in mechanical product solutions. Notably, during the 3rd year of my Bachelors I discovered the Human Factors and Ergonomics program in Clemson University and started working towards enrolling in their Master's program. During the Master's program, I learned the skills required to gather and understand user's requirements in order to design a seamless experience for any product or service.
-        </p>
-        <p>
-          I have had the opportunities to create designs and experiences ranging from a website for a local pizza restaurant, a socializing app for students, optimizing the front-end process in a University Health Center, adding an e-commerce platform for a nutritional supplements company, and currently developing a platform of Global Risk and Compliance software.
-        </p>
-        <p>
-          In my spare time you can find me drumming, capturing photos and videos, building computers and gaming.
-        </p>
+    <div class="row">
+      <div class="col-10 about-row-container">
+        <div class="row intro-section mt-5 mb-5">
+          <div class="col-3">
+            <h2>About Me</h2>        
+          </div>
+        </div>
+        <div class="row text-section mb-5">
+          <div class="col">
+            <img src="./images/about.jpg" class="img-fluid about-image" alt="">
+            <p>
+              I'm Aswin, a New York City based user experience designer currently making products and experiences at Wolters Kluwer.       
+            </p>
+            <p>
+              Design is my passion. Using the skills I have acquired over the years, I love creating new products or services iterating from a paper sketch to a fully functional product. 
+            </p>
+            <p>
+              I was born and raised in Chennai, India, then moved to Coimbatore for high school and graduated from Anna University with a Bachelors in Mechanical Engineering. While pursuing my Bachelors, I developed the interest in designing posters, certificates, and invitations for product design in mechanical product solutions. Notably, during the 3rd year of my Bachelors I discovered the Human Factors and Ergonomics program in Clemson University and started working towards enrolling in their Master's program. During the Master's program, I learned the skills required to gather and understand user's requirements in order to design a seamless experience for any product or service.
+            </p>
+            <p>
+              I have had the opportunities to create designs and experiences ranging from a website for a local pizza restaurant, a socializing app for students, optimizing the front-end process in a University Health Center, adding an e-commerce platform for a nutritional supplements company, and currently developing a platform of Global Risk and Compliance software.
+            </p>
+            <p>
+              In my spare time you can find me drumming, capturing photos and videos, building computers and gaming.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -160,38 +173,45 @@
           <div class="icon-div mr-3" style="background-color: #1178B3;">
             <i class="fab fa-linkedin"></i>            
           </div>
-          <h5>Connect on LinkedIn</h5>
+          <h5><a href="https://www.linkedin.com/in/uxdaswinravindran/" target="_blank">Connect on LinkedIn</a></h5>
         </div>
         <div class="contact-link ml-2 mb-3">
           <div class="icon-div  mr-3" style="background: #93C551;">
             <i class="far fa-envelope"></i>            
           </div>
-          <h5>Mail me</h5>
+          <h5><a href="mailto:aswin.ravindran@outlook.com">Mail me</a></h5>
         </div>
         <div class="contact-link ml-2 mb-3">
           <div class="icon-div mr-3" style="background: #2AA3F0;">
             <i class="fab fa-twitter"></i>            
           </div>
-          <h5>Follow me on Twitter</h5>
+          <h5><a href="https://twitter.com/aswinsince1990" target="_blank">Follow me on Twitter</a></h5>
         </div>
       </div>
     </div>
   </div>
-  <div id="main-footer" class="d-flex flex-column flex-md-row align-items-center justify-content-around p-2 px-md-4 border-bottom box-shadow">
-    <nav class="my-2 my-md-0 mr-md-3 d-flex justify-content-between">
-      <a class="p-2" href="#">Portfolio</a>
-      <a class="p-2" href="#">About</a>
-      <a class="p-2" href="#">Contact</a>      
+  <h5 class="to-top"><a href="#main-nav">Back to top <i class="fas fa-arrow-up"></a></i></h5>
+  <div id="main-footer" class="d-flex flex-row align-items-center justify-content-between p-3 border-bottom box-shadow">
+    <div>
+      <img src="images/arvk.png" alt="" class="footer-logo">
+    </div>
+    <div class="footer-copyright">
+      <p class="my-0">&copy; 2018 Aswin Ravindran</p>
+    </div>
+    <nav class="d-flex justify-content-between w-50">
+      <a class="p-2" href="#portfolio">Portfolio</a>
+      <a class="p-2" href="#about">About</a>
+      <a class="p-2" href="#contact">Contact</a>      
     </nav>
-    <div class="nav-right-icons">
-      <i class="far fa-envelope mr-md-3"></i>
-      <i class="fab fa-linkedin"></i>
+    <div class="footer-right-icons">
+      <a href="mailto:aswin.ravindran@outlook.com"><i class="far fa-envelope mr-md-3"></i></a>
+      <a href="https://www.linkedin.com/in/uxdaswinravindran/" target="_blank"><i class="fab fa-linkedin"></i></a>
     </div>
   </div>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" defer></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" defer></script>
-<script>
+<script defer>
   $( "div.portfolio-piece" )
   .on( "mouseenter", function() {
     $(this).find(".portfolio-piece-mouseover").css("display", "flex");
@@ -207,5 +227,14 @@
       $('#imgModal').modal('show'); 
     });
   });
+</script>
+<script type="text/javascript" defer>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-116694864-1', 'auto');
+  ga('send', 'pageview');
 </script>
 </html>

@@ -1,0 +1,61 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#landing {
+  min-height: 100vh;
+  padding-top: 10vh;
+  font-family: 'Saira Condensed', sans-serif;
+  h1 {
+    font-size: 5rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+  h2 {
+    margin: 1em 0;
+    font-weight: 500;
+  }
+  .row {
+    min-height: 90vh;
+    background: url('./images/bg.png') 0 0 repeat;
+    padding-top: 2.5em;
+  }
+  .landing--text {
+    padding-left: 2em;
+    li {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      padding-left: 3.3em;
+
+      div {
+        position: relative;
+      }
+
+      div::before {
+        content: '';
+        width: 2em;
+        height: 0.4em;
+        background: red;
+        top: 1em;
+        position: absolute;
+        left: -3em;
+      }
+    }
+  }
+  .landing--image {
+    padding-top: 2.5%;
+    img {
+      max-width: 85%;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+}
+
+#features {
+  background: hsl(45, 97%, 91%);
+}

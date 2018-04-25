@@ -1,10 +1,18 @@
+body,
+html {
+  height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
 #pattern9 {
   color: #363743;
   /*background:linear-gradient(rgba(250,251,253, 0.05), rgba(250,251,253, 0.05)), url("./images/memphis_3.png")repeat center center;*/
   /*background:linear-gradient(rgba(250,251,253, 0.25), rgba(250,251,253, 0.25)), url("./images/pattern_bg_5.png")repeat center center;*/
   /*background:linear-gradient(rgba(250,251,253, 0.25), rgba(250,251,253, 0.25)), url("./images/pattern_bg_13.jpg")repeat center center fixed;*/
   /*background:linear-gradient(rgba(250,251,253, 0.25), rgba(250,251,253, 0.25)), url("./images/memphis_8.jpg")no-repeat center center fixed;*/
-  background:linear-gradient(rgba(34, 51, 62, 0.5), rgba(34, 51, 62, 0.5)), url("./images/memphis_8.jpg")no-repeat center center fixed;
+  background: linear-gradient(rgba(34, 51, 62, 0.5), rgba(34, 51, 62, 0.5)),
+    url('./images/memphis_8.jpg') no-repeat center center fixed;
   background-size: cover;
   padding-top: 5em;
 }
@@ -31,15 +39,17 @@ img {
 .label {
   color: inherit;
   display: block;
-  font-size: .8em;
+  font-size: 0.8em;
   text-align: center;
 }
 
-nav, .nav {
-  background: #F92D33;
+nav,
+.nav {
+  background: #f92d33;
 }
 
-nav a, .nav > li > a {
+nav a,
+.nav > li > a {
   color: black;
   border-bottom: 2px solid white;
 }
@@ -53,21 +63,20 @@ nav a, .nav > li > a {
   text-align: center;
 }
 
-.feed_hero_pic img{
+.feed_hero_pic img {
   width: 70%;
   vertical-align: bottom;
 }
 
-
 .metadata {
-  font-size: .8em;
+  font-size: 0.8em;
   float: right;
 }
 
 #pattern10 {
   padding-top: 5em;
   padding-bottom: 5em;
-  background: #F0EEEF;
+  background: #f0eeef;
   /*background:  linear-gradient(rgba(34, 51, 62, 0.5), rgba(34, 51, 62, 0.5)), url("./images/lycan_bg.jpg")no-repeat center center fixed;*/
   /*background:  linear-gradient(rgba(34, 51, 62, 0.5), rgba(34, 51, 62, 0.5)), url("./images/sven_bg.jpg")no-repeat center center fixed;*/
   /*background:linear-gradient(rgba(250,251,253, 0.1), rgba(250,251,253, 0.1)), url("./images/sven_bg.jpg")no-repeat center center fixed;*/
@@ -76,23 +85,23 @@ nav a, .nav > li > a {
 
 .stats-box {
   padding-left: 1em !important;
-  padding-top: .75em;
-  border: 1px solid #CFCFD4;
-  margin: 0 .75em;
-  border-radius: .3em;
+  padding-top: 0.75em;
+  border: 1px solid #cfcfd4;
+  margin: 0 0.75em;
+  border-radius: 0.3em;
   background: white;
 }
 
-.stats-box h2{
+.stats-box h2 {
   font-weight: bold;
-  color: #16191C;
-  letter-spacing: .05em;
+  color: #16191c;
+  letter-spacing: 0.05em;
 }
 
 .stats-box h6 {
-  color: #519BF0;
+  color: #519bf0;
   font-weight: 400;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .stats-row {
@@ -101,14 +110,13 @@ nav a, .nav > li > a {
 
 .stats-percentage {
   background-color: black;
-  height: .5em;
+  height: 0.5em;
   width: 80%;
 }
 
 .loadout-gif img {
   max-width: 100%;
 }
-
 
 .loadout-gif {
   background: #fef555;
@@ -129,14 +137,14 @@ nav a, .nav > li > a {
   background: white;
 }
 
-.matchups-table img{
+.matchups-table img {
   width: 3rem;
 }
 
 .matchups-number {
-  font-size: .85rem;
+  font-size: 0.85rem;
   font-weight: bold;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
 
 /*https://stackoverflow.com/questions/18729638/rounded-tables-in-twitter-bootstrap-3
@@ -179,19 +187,20 @@ nav a, .nav > li > a {
   padding-bottom: 5em;
   /*background-color: #2D314E;*/
   min-height: 100vh;
-  background:linear-gradient(rgba(45,49,78, 0.7), rgba(45,49,78, 0.7)), url("./images/ogre_bg.jpg")no-repeat center center fixed;
+  background: linear-gradient(rgba(45, 49, 78, 0.7), rgba(45, 49, 78, 0.7)),
+    url('./images/ogre_bg.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
 .note-nav-col {
-  padding-top: .2em;
-  padding-bottom: .2em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   background-color: white;
   transform: skew(-20deg);
-  transition: all .2s ease-in-out; 
+  transition: all 0.2s ease-in-out;
 }
 
-.note-nav-col:hover { 
+.note-nav-col:hover {
   /*transform: scale(1.1); */
   transform: skew(-20deg) scale(1.1);
   position: relative;
@@ -199,7 +208,7 @@ nav a, .nav > li > a {
 }
 
 .note-nav-col p {
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: 400;
   /*color: #737D95;*/
 }
@@ -208,7 +217,7 @@ nav a, .nav > li > a {
   font-weight: 700;
   font-size: 1rem;
   letter-spacing: 1px;
-  margin-bottom: .1em;
+  margin-bottom: 0.1em;
   display: inline-block;
   margin-left: 1em;
   transform: skew(20deg);
@@ -216,31 +225,31 @@ nav a, .nav > li > a {
 
 .note-nav-img {
   width: 3rem;
-  border: .5px dashed black;
+  border: 0.5px dashed black;
   border-radius: 51%;
-  padding: .5em;
-  margin-bottom: .5em;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
   display: inline-block;
   transform: skew(20deg);
 }
 
 .note-nav-col.red-bg {
-  background-color: #FD5B5B;
+  background-color: #fd5b5b;
   color: white;
 }
 
 .note-nav-col.teal-bg {
-  background-color: #63CCD5;
+  background-color: #63ccd5;
   color: white;
 }
 
 .note-nav-col.blue-bg {
-  background-color: #519BF0;
+  background-color: #519bf0;
   color: white;
 }
 
 .note-nav-col.yellow-bg {
-  background-color: #FEBD01;
+  background-color: #febd01;
   color: white;
 }
 
@@ -256,7 +265,7 @@ nav a, .nav > li > a {
 .note-form-formarea {
   background: white;
   padding: 2rem !important;
-/*  padding-top: 2em;
+  /*  padding-top: 2em;
   padding-bottom: 2em;*/
 }
 
@@ -266,20 +275,20 @@ nav a, .nav > li > a {
 
 .note-form-formarea div.label-bullet {
   width: 1.5em;
-  height: .3em;
-  background: #FD5B5B;
+  height: 0.3em;
+  background: #fd5b5b;
   display: inline-block;
   position: relative;
-  top: -.25rem;
+  top: -0.25rem;
 }
 
 .note-form-formarea label.title {
   font-weight: 600;
-  font-size: .9rem;
-  letter-spacing: .05rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
 }
 
-.note-form-formarea .form-check-label{
+.note-form-formarea .form-check-label {
   min-width: 6rem;
   background: #ffe4c4;
   text-align: center;
@@ -295,40 +304,110 @@ nav a, .nav > li > a {
 
 .note-form-accordion .rec-item {
   max-width: 30%;
-  margin: .25em auto;
+  margin: 0.25em auto;
 }
 
-.note-form-accordion .items-panel{
+.note-form-accordion .items-panel {
   padding: 2rem;
 }
-
 
 .note-form-accordion .mood-form {
   display: inline-block;
   text-align: center;
 }
 
-.note-form-accordion .mood-form img{
+.note-form-accordion .mood-form img {
   max-width: 3rem;
   display: block;
   margin: 0 auto;
 }
 
-.note-form-accordion .mood-form p.halt{
-  margin-bottom: 0;    
+.note-form-accordion .mood-form p.halt {
+  margin-bottom: 0;
 }
 
-.note-form-accordion .card{
+.note-form-accordion .card {
   border-radius: 0;
 }
 
 .note-form-accordion .first-letter {
   font-size: 2rem;
   font-weight: 700;
-  color: #FD5B5B;
-  margin-right: .05rem;
+  color: #fd5b5b;
+  margin-right: 0.05rem;
 }
 
-.note-form-accordion .mood-form input {  
-  margin: .5em -6%;
+.note-form-accordion .mood-form input {
+  margin: 0.5em -6%;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+#notes-take-form {
+  /*  background:linear-gradient(rgba(222, 226, 229, .75), rgba(222,226,229, 0.75)), url("./images/radiant_background.jpg")no-repeat center center;
+  background-size: cover;*/
+  min-height: 100%;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+}
+
+#notes-take-form textarea {
+  width: 100%;
+  margin-left: 9.37%;
+  margin-right: 8.37%;
+}
+
+.note-take-sidebar {
+  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.note-take-sidebar-main-buttons-row {
+  padding: 1em;
+  background: hsl(220, 12%, 95%);
+}
+
+.note-take-sidebar-main-buttons-row button {
+  width: 45%;
+}
+
+.notes-take-form-row {
+  background: #ffe4c4;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.notes-take-form-row h6 {
+  margin: 0 auto;
+}
+
+.note-take-sidebar-icon {
+  width: 1.75vw;
+  display: block;
+  margin-left: 0.65vw;
+}
+
+.note-take-note-icon {
+  width: 2.25vw;
+  display: block;
+}
+
+.note-take-note-edit-icon {
+  width: 1.5vw;
+  margin-top: 1em;
+}
+
+.note-death {
+  border-left: 0.5em solid red !important;
+  /*  border-top: .5px solid blue;
+  border-bottom: .5px solid blue;
+  border-right: .5px solid blue;*/
+  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.note-highlight {
+  border-left: 0.5em solid green !important;
+  /*  border-top: .5px solid blue;
+  border-bottom: .5px solid blue;
+  border-right: .5px solid blue;*/
+  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
 }
