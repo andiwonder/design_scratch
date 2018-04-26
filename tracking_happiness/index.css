@@ -7,17 +7,17 @@ body {
 #landing {
   min-height: 100vh;
   padding-top: 10vh;
-  font-family: 'Saira Condensed', sans-serif; }
+  font-family: 'Saira Condensed', sans-serif;
+  background: #f8fff5; }
   #landing h1 {
     font-size: 5rem;
-    letter-spacing: 1px;
+    letter-spacing: 2.5px;
     font-weight: 700; }
   #landing h2 {
     margin: 1em 0;
     font-weight: 500; }
   #landing .row {
     min-height: 90vh;
-    background: url("./images/bg.png") 0 0 repeat;
     padding-top: 2.5em; }
   #landing .landing--text {
     padding-left: 2em; }
@@ -44,6 +44,64 @@ body {
       display: block; }
 
 #features {
-  background: #fef3d2; }
+  background: white;
+  padding: 5em 3.5em;
+  font-family: 'Saira Condensed', sans-serif; }
+  #features .step-number {
+    font-size: 5rem;
+    /* text-decoration: underline; */
+    background: #fef3d2;
+    width: 4rem;
+    border-bottom: 0.5rem solid #fdca4d;
+    text-align: center;
+    height: 6.75rem;
+    margin-right: 1rem;
+    color: #00897b; }
+  #features .quote-col {
+    background: #15161a;
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem; }
+  #features .quote-text {
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-style: italic;
+    margin-left: 1rem;
+    margin-right: 1rem; }
+  #features .quotes {
+    display: inline-block;
+    vertical-align: super;
+    margin-bottom: 10px; }
+  #features .quote-icon {
+    transform: scaleX(-1); }
+  #features .steps-text-col {
+    background: #a6d8f7;
+    margin-bottom: 4rem; }
+    #features .steps-text-col span.feature-1 {
+      text-decoration: underline;
+      font-weight: 700;
+      font-style: italic; }
+    #features .steps-text-col span.feature-2 {
+      color: #d32f2f;
+      font-weight: 700; }
+    #features .steps-text-col h2 {
+      text-align: center;
+      width: 70%;
+      display: block;
+      margin: 0 auto;
+      font-weight: 300;
+      line-height: 4rem;
+      color: #2e2e2e; }
+  #features .steps-row h3 {
+    font-weight: 700;
+    color: #2e2e2e; }
+  #features .steps-row h4 {
+    color: #262626;
+    font-weight: 300; }
+  #features .border-row {
+    height: 4rem;
+    border-left: 0.25rem solid red;
+    margin-left: 2rem; }
 
 /*# sourceMappingURL=index.css.map */
