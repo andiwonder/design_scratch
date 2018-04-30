@@ -1,0 +1,51 @@
+{
+  "adult": false,
+  "backdrop_path": "/uY93JtLsAXLnd38b19dIVRv5L1X.jpg",
+  "belongs_to_collection": null,
+  "budget": 15000000,
+  "genres": [{ "id": 35, "name": "Comedy" }, { "id": 80, "name": "Crime" }],
+  "homepage": "http://www.biglebowskibluray.com/splash.php",
+  "id": 115,
+  "imdb_id": "tt0118715",
+  "original_language": "en",
+  "original_title": "The Big Lebowski",
+  "overview":
+    "Jeffrey \"The Dude\" Lebowski, a Los Angeles slacker who only wants to bowl and drink white Russians, is mistaken for another Jeffrey Lebowski, a wheelchair-bound millionaire, and finds himself dragged into a strange series of events involving nihilists, adult film producers, ferrets, errant toes, and large sums of money.",
+  "popularity": 41.02915,
+  "poster_path": "/qiE3ovg9TPylHReZjizQ40LsKZV.jpg",
+  "production_companies": [
+    { "id": 37, "logo_path": "/nlG4JEjJ7SAFDehgIVvHFBPW23y.png", "name": "Gramercy Pictures", "origin_country": "US" },
+    {
+      "id": 1382,
+      "logo_path": "/sOg7LGESPH5vCTOIdbMhLuypoLL.png",
+      "name": "PolyGram Filmed Entertainment",
+      "origin_country": ""
+    },
+    {
+      "id": 10163,
+      "logo_path": "/cifwIG2aVR1dRis6yoiilq4qeIh.png",
+      "name": "Working Title Films",
+      "origin_country": "GB"
+    }
+  ],
+  "production_countries": [
+    { "iso_3166_1": "GB", "name": "United Kingdom" },
+    { "iso_3166_1": "US", "name": "United States of America" }
+  ],
+  "release_date": "1998-03-06",
+  "revenue": 46189568,
+  "runtime": 117,
+  "spoken_languages": [
+    { "iso_639_1": "en", "name": "English" },
+    { "iso_639_1": "he", "name": "עִבְרִית" },
+    { "iso_639_1": "es", "name": "Español" },
+    { "iso_639_1": "de", "name": "Deutsch" }
+  ],
+  "status": "Released",
+  "tagline": "Times like these call for a Big Lebowski.",
+  "title": "The Big Lebowski",
+  "video": false,
+  "vote_average": 7.8,
+  "vote_count": 3955
+}
+

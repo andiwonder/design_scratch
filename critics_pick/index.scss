@@ -1,0 +1,86 @@
+html,
+body {
+  height: 100%;
+  font-family: 'Nunito', sans-serif;
+}
+
+#movie-landing {
+  // background: rgba(206, 163, 99, .7);
+  background: linear-gradient(to bottom, rgba(205, 145, 55, 0.5), rgba(205, 145, 55, 0.8)),
+    url('./images/the_big_lebowski_bg.jpg') no-repeat center center fixed;
+  min-height: 100%;
+  font-family: sans-serif;
+
+  span {
+    background: #85adda;
+  }
+
+  h1 {
+    font-size: 4rem;
+    color: white;
+    font-weight: 700;
+    text-shadow: 3px 2px 2px rgba(150, 150, 150, 1);
+  }
+}
+
+#movie-showcase {
+  // background: linear-gradient(rgba(31, 34, 38, .8), rgba(31, 34, 38, .8)),
+  //   url('./images/the_big_lebowski_bg.jpg') no-repeat center center fixed;
+  background: rgba(31, 34, 38, 1);
+  padding-top: 5em;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-bottom: 5em;
+  color: white;
+  min-height: 100%;
+
+  .row {
+    margin-bottom: 4rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .showcase-main {
+    background: #171a1f;
+    border-radius: 4px;
+    padding-left: 1em;
+    padding-right: 1em;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.75), 0px 15px 35px 0px rgba(0, 0, 0, 0.5);
+
+    .row {
+      margin-bottom: 0;
+    }
+
+    h5 {
+      font-size: 1rem;
+      font-weight: 300;
+      letter-spacing: 1px;
+    }
+
+    h3 {
+      width: 100%;
+      letter-spacing: 1px;
+    }
+
+    p {
+      color: #b3b3b3;
+    }
+
+    img {
+      position: relative;
+      top: -1.5em;
+    }
+  }
+
+  nav {
+    border-bottom: 1px solid #dee2e6 !important;
+
+    a.disabled {
+      color: #b3b3b3;
+    }
+  }
+
+  .stats-box {
+    text-align: center;
+  }
+}
