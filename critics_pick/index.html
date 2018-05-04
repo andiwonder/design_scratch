@@ -16,8 +16,18 @@
   <div class="container-fluid" id="movie-landing">
     <div class="row">
       <div class="col">
-        <div class="d-block movie-title">
-          <h1> The Big Lebowski</h1>
+        <div class="d-block movie-title mb-4">
+          <h1> The Big Lebowski</h1>          
+        </div>
+        <div class="d-flex flex-row flex-wrap mb-4">
+          <h3 class="genre-label">Comedy</h3>
+          <h3 class="genre-label">Crime</h3>
+        </div>
+        <div class="mb-5">
+          <button type="button" class="btn btn-warning trailer-btn">Watch Trailer <i class="fas fa-play-circle"></i></button>
+        </div>
+        <div class="w-75">
+          <img src="./images/metacritic-reviews.png" class="img-fluid" alt="">
         </div>              
       </div>  
     </div>
@@ -41,21 +51,162 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-3 stats-box">
-        <h5>Genre:</h5>
-        <h3>Comedy, Crime</h3>
-      </div>
-      <div class="col-6 stats-box">
-        <h5>Budget / Revenue:</h5>
-        <h3>$15,000,000 / $46,189,568</h3>
-      </div>
-      <div class="col-3 stats-box">
-        <h5>Popularity:</h5>
-        <h3>41.02915</h3>
+      <div class="col keywords-col">
+        <h3>Keywords</h3>
+        <hr>
+        <button type="button" class="keyword-pill btn btn-secondary btn-sm disabled" disabled>
+        sex
+        </button>
+        <button type="button" class="keyword-pill btn btn-secondary btn-sm disabled" disabled>
+        rock and roll
+        </button>
+        <button type="button" class="keyword-pill btn btn-secondary btn-sm disabled" disabled>
+        based on novel
+        </button>
+        <button type="button" class="keyword-pill btn btn-secondary btn-sm disabled" disabled>
+        friendship
+        </button>
+        <button type="button" class="keyword-pill btn btn-secondary btn-sm disabled" disabled>
+        high school
+        </button>
+        <button type="button" class="keyword-pill btn btn-secondary btn-sm disabled" disabled>
+        shopping mall
+        </button>
+        <button type="button" class="keyword-pill btn btn-secondary btn-sm disabled" disabled>
+        bong
+        </button>
+        <button type="button" class="keyword-pill btn btn-secondary btn-sm disabled" disabled>
+        teacher
+        </button>
+        <button type="button" class="keyword-pill btn btn-secondary btn-sm disabled" disabled>
+        coming of age
+        </button>
+        <button type="button" class="keyword-pill btn btn-secondary btn-sm disabled" disabled>
+        marijuana
+        </button>
+        <button type="button" class="keyword-pill btn btn-secondary btn-sm disabled" disabled>
+        loss of virginity
+        </button>
+        <button type="button" class="keyword-pill btn btn-secondary btn-sm disabled" disabled>
+        drug humor
+        </button>
+        <button type="button" class="keyword-pill btn btn-secondary btn-sm disabled" disabled>
+        teen movie
+        </button>
+        <button type="button" class="keyword-pill btn btn-secondary btn-sm disabled" disabled>
+        stoner
+        </button>
+        <button type="button" class="keyword-pill btn btn-secondary btn-sm disabled" disabled>
+        irreverence
+        </button>
+        <button type="button" class="keyword-pill btn btn-secondary btn-sm disabled" disabled>
+        teen comedy
+        </button>
+        <button type="button" class="keyword-pill btn btn-secondary btn-sm disabled" disabled>
+        convenience store
+        </button>
+        <button type="button" class="keyword-pill btn btn-secondary btn-sm disabled" disabled>
+        woman director
+        </button>
       </div>
     </div>
+    <div class="row stats-col">
+      <div class="col-12 px-0">
+        <h3>Meta Information</h3>
+        <hr>        
+      </div>
+      <div class="col-12 px-0 d-flex flex-row flex-wrap justify-content-between ">
+        <div class="stats-box">
+          <h5>Genre</h5>
+          <h3>Comedy, Crime</h3>
+          <hr>
+          <h5>Runtime</h5>
+          <h3>1h 57m</h3>
+        </div>
+        <div class="stats-box">
+          <h5>Budget</h5>
+          <h3>$15,000,000</h3>
+          <hr>
+          <h5>Revenue</h5>
+          <h3>$46,189,568</h3>
+        </div>
+        <div class="stats-box">
+          <h5>Popularity:</h5>
+          <h3>41.02915</h3>
+        </div>        
+      </div>
+    </div>
+    <div class="row review-row d-flex flex-row flex-wrap justify-content-between">
+      <div class="col-12 px-0">
+        <h3>Reviews</h3>
+        <hr>
+      </div>
+      <div class="col-4 review-box">
+        <div class="review-score">
+          <h5>100</h5>
+          <h3> Austin Chronicle </h3>
+          <br>            
+          <h3> Marjorie Baumgarten </h3>
+        </div>        
+        <p>It's paved with delightfully irregular and unanticipated bits of business that stimulate the viewer to stay fully alert, while renewing our faith in the sheer joy of watching movies.</p>
+      </div>
+      <div class="col-4 review-box">
+        <div class="review-score">
+          <h5>90</h5>
+          <h3> Washington Post </h3>
+          <br>          
+          <h3> Desson Thomson </h3>
+        </div>
+        <p>With their inspired, absurdist taste for weird, peculiar Americana-but a sort of neo-Americana that is entirely invented-the Coens have defined and mastered their own bizarre subgenre.</p>
+      </div>
+      <div class="col-4 review-box">
+        <div class="review-score">
+          <h5>80</h5>
+          <h3> The New York Times</h3>
+          <br>
+          <h3>Elvis Mitchell </h3>
+        </div>
+        <p>Watching it amble along is enough of a treat, since the Coens populate this story with oddballs and bowling balls of such comic variety.</p>
+      </div>
+      <div class="col-4 review-box">
+        <div class="review-score">
+          <h5>70</h5>
+          <h3> Chicago Reader</h3>
+          <br>
+          <h3>Jonathan Rosenbaum </h3>
+        </div>
+        <p>The Big Lebowski is packed with show-offy filmmaking and as a result is pretty entertaining.</p>        
+      </div>
+      <div class="col-4 review-box">
+        <div class="review-score">
+          <h5>67</h5>
+          <h3>Entertainment Weekly</h3>
+          <br>
+          <h3>Owen Gleiberman</h3>
+        </div>
+        <p>Nearly everything in The Big Lebowski is a put-on, but all that leaves you with is the Coens' bizarrely over-deliberate, almost Teutonic form of rib nudging.</p>
+      </div>
+      <div class="col-4 review-box">
+        <div class="review-score">
+          <h5 class="score-medium">60</h5>
+          <h3> Los Angeles Times </h3>
+          <br>
+          <h3> Kenneth Turan </h3>
+        </div>
+        <p>This film feels completely haphazard, thrown together without much concern for organizing intelligence.</p>
+      </div>
+      <div class="col-4 review-box">
+        <div class="review-score">
+          <h5 class="score-low">30</h5>
+          <h3> TV Guide Magazine </h3>
+          <br>
+          <h3> Ken Fox </h3>
+        </div>
+        <p>If it's all supposed to be in fun, why does it feel so much like an insult?</p>
+      </div>      
+    </div>
     <div class="row">
-      <div class="col">
+      <div class="col px-0">
         <nav class="nav justify-content-end">
           <h3 class="mr-auto">Videos</h3>
           <div class="w-50 d-flex flex-row flex-wrap justify-content-between">

@@ -6,10 +6,14 @@ body {
 
 #movie-landing {
   // background: rgba(206, 163, 99, .7);
-  background: linear-gradient(to bottom, rgba(205, 145, 55, 0.5), rgba(205, 145, 55, 0.8)),
+  background: linear-gradient(to bottom, rgba(26, 26, 26, 0.5), rgba(26, 26, 26, 0.8)),
     url('./images/the_big_lebowski_bg.jpg') no-repeat center center fixed;
   min-height: 100%;
   font-family: sans-serif;
+  padding-top: 18%;
+  padding-left: 15%;
+  // -webkit-transition: background-image 10s ease-in-out;
+  // transition: background-image 10s ease-in-out;
 
   span {
     background: #85adda;
@@ -19,7 +23,21 @@ body {
     font-size: 4rem;
     color: white;
     font-weight: 700;
-    text-shadow: 3px 2px 2px rgba(150, 150, 150, 1);
+    margin-bottom: 0;
+  }
+
+  .trailer-btn {
+    border-radius: 1.5em;
+    padding: 8px 15px;
+    font-weight: 700;
+  }
+
+  .genre-label {
+    margin-right: 1.5em;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-style: italic;
+    color: #cccccc;
   }
 }
 
@@ -38,6 +56,21 @@ body {
     margin-bottom: 4rem;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .keywords-col {
+    padding: 0;
+
+    .keyword-pill {
+      margin-bottom: 1.25rem;
+      margin-right: 0.75rem;
+      opacity: 1;
+    }
+
+    hr {
+      border-top: 1px solid #dee2e6 !important;
+      margin-bottom: 2rem;
+    }
   }
 
   .showcase-main {
@@ -80,7 +113,93 @@ body {
     }
   }
 
-  .stats-box {
-    text-align: center;
+  .stats-col {
+    .col {
+      padding: 0;
+    }
+
+    hr {
+      border-top: 1px solid #dee2e6 !important;
+      margin-bottom: 2rem;
+    }
+
+    .stats-box {
+      text-align: center;
+      background: #f7f7f7;
+      color: black;
+      width: 30%;
+      padding: 0.75em 0 0.25em 0;
+
+      hr {
+        margin-bottom: 1rem;
+      }
+
+      h3 {
+        color: hsl(0, 0%, 10%);
+        font-weight: 700;
+      }
+
+      h5 {
+        color: #6d6112;
+        font-size: 1rem;
+        font-weight: 300;
+      }
+
+      &-large {
+        width: 60%;
+      }
+    }
+  }
+
+  .review-row {
+    hr {
+      border-top: 1px solid #dee2e6 !important;
+      margin-bottom: 2rem;
+    }
+
+    .review-box {
+      margin-bottom: 0.5rem;
+      background: #f7f7f7;
+      color: black;
+      padding: 1em;
+      border-right: 0.25rem solid rgba(31, 34, 38, 1);
+      min-height: 180px;
+      // margin-right: 8%;
+
+      p {
+        margin-bottom: 0;
+      }
+
+      .review-score {
+        margin-bottom: 0.5rem;
+
+        h3 {
+          display: inline-block;
+          font-size: 1rem;
+          font-weight: 300;
+          color: #333333;
+          margin-bottom: 0;
+        }
+
+        h5 {
+          float: left;
+          padding: 0.5em;
+          background: #69ca3f;
+          font-weight: 700;
+          margin-right: 0.75em;
+          min-width: 56px;
+          text-align: center;
+          letter-spacing: 1px;
+
+          &.score-medium {
+            background: #fecb45;
+          }
+
+          &.score-low {
+            background: #fc0d1c;
+          }
+        }
+      }
+    }
   }
 }
